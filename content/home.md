@@ -2,7 +2,7 @@
 title: Home
 author: ''
 date: '2018-07-02'
-draft: flase
+draft: false
 ---
 
 ### Welcome to Yuantong Li's website! (@_@)
