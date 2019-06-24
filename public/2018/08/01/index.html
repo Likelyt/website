@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.42.2" />
+
+  <title>Linear Time Series &middot; </title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://liyuantong93.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://liyuantong93.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://liyuantong93.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/Ascetic.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://liyuantong93.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://liyuantong93.com/">Yuantong Li</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://liyuantong93.com/home/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://liyuantong93.com/post/"><i class='fa fa-institution fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://liyuantong93.com/publications/"><i class='fa fa-book fa-fw'></i>Publications</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/yuantongli" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/Likelyt" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018 Yuantong Li. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Linear Time Series</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>01 Aug 2018</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/time-series">Time Series</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/r">R</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <div id="introduction-to-time-series" class="section level1">
+<h1>1. Introduction to Time Series</h1>
+<p>Random Walk with drift:</p>
+<p><span class="math display">\[X_t = \delta + X_{t-1} + W_{t}\]</span></p>
+<pre class="r"><code>library(astsa, quietly = TRUE)
+x = ts(cumsum(rnorm(500) + 0.2))
+plot(x)</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><em>Autocovariance function</em>:</p>
+<p><span class="math display">\[\gamma_{X}(s,t) = E[(X_s - \mu_{X,s})(X_t - \mu_{X,t})]\]</span>
+and we know <span class="math inline">\(\gamma_{X}(s,t) = \gamma_{X}(t,s)\)</span></p>
+<p><em>Autocorrelation function (ACF)</em>:</p>
+<p><span class="math display">\[\rho_{X}(s,t) = \frac{\gamma_{X}(s,t)}{\sqrt{\gamma_{X}(s,s)}\sqrt{\gamma_{X}(t,t)}}\]</span></p>
+<p><em>Cross correlation function (CCF)</em>:</p>
+<p><span class="math display">\[\rho_{X,Y}(s,t) = \frac{\gamma_{X,Y}(s,t)}{\sqrt{\gamma_{X}(s,s)}\sqrt{\gamma_{Y}(t,t)}}\]</span></p>
+<ol style="list-style-type: decimal">
+<li>Strong (or strict) stationarity</li>
+</ol>
+<p>A time series <span class="math inline">\(X_t\)</span> is called strongly stationary if the joint distribution of every finite collection of variables remain the same under time shifts, i.e.,</p>
+<p>the joint distribution of <span class="math inline">\({X_{t_1} , . . . , X_{t_k}}\)</span> is the same as that of <span class="math inline">\({X_{t_1+h},...,X_{t_k+h}}\)</span> for all <span class="math inline">\(t_1,...,t_k\in T\)</span>, for all <span class="math inline">\(h\)</span>(positive or negative) and for all <span class="math inline">\(k\geq 1\)</span>.</p>
+<p>Strong stationarity is hard to verify.</p>
+<p>Thus, for <span class="math inline">\(k = 1\)</span>, every <span class="math inline">\(X_t\)</span> has the same distribution</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Weak stationarity</li>
+</ol>
+<p>A time series <span class="math inline">\({X_t}\)</span> is weakly stationary if:</p>
+<ol style="list-style-type: decimal">
+<li><p>the mean function <span class="math inline">\(\mu_{X}(t)\)</span> is constant; that is, every <span class="math inline">\(X_t\)</span> has the same mean;</p></li>
+<li><p>the autocovariance function <span class="math inline">\(\gamma_{X}(s;t)\)</span> depends on <span class="math inline">\(s\)</span> and <span class="math inline">\(t\)</span> only through their difference <span class="math inline">\(|s-t|\)</span>.</p></li>
+</ol>
+<p>Strongly stationary (plus finite variance) <span class="math inline">\(\rightarrow\)</span> weakly stationary.</p>
+<p>In general, weak stationarity does not imply strong stationarity.</p>
+<p>If <span class="math inline">\(X_t\)</span> is weakly stationary, then the covariance between <span class="math inline">\(X_{t+h}\)</span> and <span class="math inline">\(X_t\)</span> depends on <span class="math inline">\(h\)</span> but not on <span class="math inline">\(t\)</span>, so that we may write the autocovariances as</p>
+<p><span class="math display">\[\gamma_{X}(h) = Cov(X_{t+h},X_{t}), for \hspace{1mm} all \hspace{1mm} t,h\]</span>
+<span class="math display">\[\rho_{X}{h} = \frac{\gamma_{X}(h)}{\gamma_{X}(0)}\]</span></p>
+<p>We can estimate the autocovariance function <span class="math inline">\(\gamma(h)\)</span> by</p>
+<p><span class="math display">\[\hat{\gamma}(h) = n^{-1}\sum_{t = 1}^{n-h}(X_{t+h}-\bar{X}_n)(X_{t} - \bar{X}_n)\]</span></p>
+<p>we can estimate the autocorrelation function (ACF) <span class="math inline">\(\rho(h)\)</span> by</p>
+<p><span class="math display">\[\hat{\rho}(h) = \frac{\hat{\gamma}(h)}{\hat{\gamma}(0)}\]</span></p>
+<p>If <span class="math inline">\(X_t\)</span> is white noise and <span class="math inline">\(n\)</span> is large and some mild conditions hold, then for each fixed <span class="math inline">\(h\)</span>, <span class="math inline">\(\hat{\rho}(h)\)</span> is approximately normal with zero mean and standard deviation</p>
+<p><span class="math display">\[\sigma_{\hat{\rho}(h)} = \frac{1}{\sqrt{n}}\]</span></p>
+<p>So we can look for autocorrelations outside <span class="math inline">\(\pm 2/\sqrt{n}\)</span> as evidence of non-zero autocorrelation.</p>
+<pre class="r"><code>acf(ts(rnorm(100)))</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<pre class="r"><code>soi = scan(&quot;http://anson.ucdavis.edu/~shumway/soi.dat&quot;)
+soi = ts(soi, start = 1950, frequency = 12)
+recruit = scan(&quot;http://anson.ucdavis.edu/~shumway/recruit.dat&quot;)
+recruit = ts(recruit, start = 1950, frequency = 12)
+acf(soi, 50)</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-2.png" width="672" /></p>
+<pre class="r"><code>acf(recruit, 50)</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-3.png" width="672" /></p>
+<pre class="r"><code>ccf(soi, recruit, 50)</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-4.png" width="672" /></p>
+<pre class="r"><code># Negative lags indicate SOI leads recruitment.</code></pre>
+<p>Box and Jenkins popularized an approach to time series analysis based on</p>
+<ul>
+<li><p>Auto-Regressive</p></li>
+<li><p>Intergrated</p></li>
+<li><p>Moving Average</p></li>
+</ul>
+<p>Leading to the ARIMA models.</p>
+</div>
+<div id="autoregressive-models-ar" class="section level1">
+<h1>2. Autoregressive models (AR)</h1>
+<p>Recursive model <em>AR(2)</em></p>
+<p><span class="math display">\[X_t =a_1X_{t-1} +a_2X_{t-2} +W_t;t \geq 1; W_t\leftarrow N(0,1), iid\]</span></p>
+<pre class="r"><code>w = ts(rnorm(500))
+v = filter(w, filter = c(1, -0.9), method = &quot;recursive&quot;)
+plot(v)</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>For non-constant means, <span class="math inline">\(EX_t = \mu_t, t \in T,\)</span> we use</p>
+<p><span class="math display">\[(X_t - \mu_t) = \phi_1(X_{t-1} - \mu_{t-1}) +\phi_2(X_{t-2} - \mu_{t-2}) + ... +\phi_p(X_{t-p} - \mu_{t-p}) + W_{t} \]</span></p>
+<ol style="list-style-type: decimal">
+<li>Trends and Detrending</li>
+</ol>
+<p><span class="math inline">\(X_t = \mu_t + Y_t\)</span></p>
+<p>Where the obeserved <span class="math inline">\(X_t\)</span> is the sum of a mean part <span class="math inline">\(\mu_t\)</span> and a zero mean process <span class="math inline">\(Y_t\)</span>.</p>
+<ul>
+<li>The form of trend might be linear,</li>
+<li>higher degree polynomials,</li>
+<li>regression functions based some suitable classes of basis functions, or</li>
+<li>some other function suggested by theory.</li>
+</ul>
+<p>Thus, the first step is to estimate <span class="math inline">\(\mu_t\)</span> using any of the above approaches!</p>
+<p>1.1 Example: 20th Century Global Temperature</p>
+<pre class="r"><code>g1900 = window(globtemp, start = 1900)
+plot(g1900)</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>Try fitted linear regression model:</p>
+<pre class="r"><code>lmg1900 = lm(g1900~time(g1900))
+plot(ts(residuals(lmg1900), start = 1900));</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>1.2 Differencing</p>
+<p>Still appear nonstationary after detrending, A possible approach is to consider differencing the residuals.</p>
+<p>Sepcifically, if <span class="math inline">\(Y_t = \sum_{j = 1}^{t}W_t\)</span> for a white noise process <span class="math inline">\(\{W_t\}\)</span>, then, differencing yields:</p>
+<p><span class="math inline">\(\nabla Y_t = Y_t - Y_{t-1} = W_t\)</span></p>
+<p>which is stationary (and is a white noise process). Note that <span class="math inline">\(\nabla Y_t = (1-B)Y_t\)</span>, where <span class="math inline">\(B\)</span> is the backshift operator, defined by <span class="math inline">\(BY_t = Y_{t-1}\)</span>.</p>
+<pre class="r"><code>plot(diff(g1900))</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<pre class="r"><code>#ACFs
+acf(residuals(lmg1900), 50)</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-6-2.png" width="672" /></p>
+<pre class="r"><code>acf(diff(g1900), 50)</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-6-3.png" width="672" /></p>
+<p>1.3 Transformation</p>
+<p>Common transformations include the logarithm, power transformation, etc.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>AR(p)</li>
+</ol>
+<p>Thus, in the operator form, we can write the AR(p) model as:</p>
+<p><span class="math display">\[\phi(B) = [1-\phi_1B - \phi_2B - ... - \phi_p B^p]\]</span></p>
+<p><span class="math inline">\(\phi(B)X_t = W_t\)</span></p>
+<p>2.1 Simulation</p>
+<pre class="r"><code>plot(arima.sim(model = list(ar = .2), 100))</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<pre class="r"><code>plot(arima.sim(model = list(ar = .9), 100))</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-7-2.png" width="672" /></p>
+<pre class="r"><code>plot(arima.sim(model = list(ar = -.9), 100))</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-7-3.png" width="672" /></p>
+<p>2.2 Generating AR(p)-process samples</p>
+<pre class="r"><code>plot(arima.sim(n=200, list(c(3,0,0), ar=c(-0.2, -0.1, -0.8))))</code></pre>
+<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+</div>
+<div id="moving-average-model-ma" class="section level1">
+<h1>3. Moving Average model (MA)</h1>
+<p><span class="math inline">\(\{X_t\}\)</span> is called a Moving Average process of order <span class="math inline">\(q\)</span> (written as MA(q), in short) if</p>
+<p><span class="math display">\[X_t = W_t + \theta_1 W_{t-1} + ... + \theta_q W_{t-q}\]</span></p>
+<p>where <span class="math inline">\(\theta_1, ..., \theta_q\)</span> are real numbers with <span class="math inline">\(\theta_q \neq 0\)</span> and where
+<span class="math inline">\(W_t \sim WN(0, \sigma_w^2)\)</span></p>
+<p><span class="math display">\[X_t = \theta(B) W_t\]</span>
+where <span class="math inline">\(\theta (z) = 1 + \sum_{j=1}^{q}\theta_jz^j\)</span> is the associated MA-polynomial.</p>
+</div>
+<div id="autoregressive-moving-average-models" class="section level1">
+<h1>4. Autoregressive Moving Average Models</h1>
+<p><span class="math inline">\(\{X_t\}\)</span> is called an Autoregressive Moving Average process of order <span class="math inline">\(p, q\)</span> ( written as ARMA(p, q), in short) if</p>
+<p><span class="math display">\[X_t = \phi_1 X_{t-1} + ... + \phi_pX_{t-p} + W_t + \theta_1W_{t-1} + ... + \theta_q W_{t-q}\]</span>
+In the operator form: <span class="math inline">\(\phi(B)X_t = \theta(B)W_t\)</span> where the AR polynomial <span class="math inline">\(\phi(z)\)</span> and the MA-polynomial <span class="math inline">\(\theta(z)\)</span> are as before!</p>
+<ol style="list-style-type: decimal">
+<li><p>Parameter redundancy: if <span class="math inline">\(\phi(z)\)</span> and <span class="math inline">\(\theta(z)\)</span> have any common factors, they can be cancelled out, so the model is the same as one with lower orders. We will assume no redundancy.</p></li>
+<li><p>Causality: If <span class="math inline">\(\phi(z) \neq 0\)</span> for all <span class="math inline">\(|z| \leq 1\)</span>, then <span class="math inline">\(X_t\)</span> can be written in terms of the present and the past <span class="math inline">\(W_s\)</span>’s. We will assume causality.</p></li>
+<li><p>Invertibility: If <span class="math inline">\(\theta(z) \neq 0\)</span> for all <span class="math inline">\(|z| \leq 1\)</span>, then <span class="math inline">\(W_t\)</span> can be written in terms of the present and the past <span class="math inline">\(X_s\)</span>’s, and <span class="math inline">\(X_t\)</span> can be written as an infinite order autoregression. We assume invertibility.</p></li>
+</ol>
+<div id="yule-walker-equations" class="section level2">
+<h2>Yule-Walker equations</h2>
+<p>For a ARMA(p,q) process <span class="math inline">\(\{Xt\}\)</span>, the recursive equation is</p>
+<p><span class="math display">\[\gamma(h) = \sum_{j=1}^{p} \phi_j \gamma(h-j), h&gt;q\]</span></p>
+</div>
+<div id="the-partial-autocorrelation-function-pacf-fills-that-role." class="section level2">
+<h2>The partial autocorrelation function (PACF) fills that role.</h2>
+<p>Recall that for random variables <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> and a random vector <span class="math inline">\(Z\)</span> (of an arbitrary dimension). The partial correlation of <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> given <span class="math inline">\(Z\)</span> is the correlations of:</p>
+<ol style="list-style-type: decimal">
+<li>the residuals of X from its regression on Z,</li>
+<li>and the residuals of Y from its regression on Z.</li>
+</ol>
+</div>
+</div>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://liyuantong93.com/2018/07/31/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://liyuantong93.com/2018/07/31/">Monte Carlo In Financial Derivatives</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://liyuantong93.com/2018/08/06/">Create Multiple Directories and Files With Contents</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://liyuantong93.com/2018/08/06/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://liyuantong93.com/js/ui.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+

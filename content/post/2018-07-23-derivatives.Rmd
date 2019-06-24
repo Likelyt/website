@@ -1,0 +1,84 @@
+---
+title: Derivatives
+author: Yuantong
+date: '2018-07-23'
+slug: derivatives
+categories:
+  - Finance
+  - Derivatives
+tags:
+  - Finance
+  - Derivatives
+description: ''
+topics: []
+---
+
+
+
+# 1. Forward
+
+
+
+# 2. Future
+
+
+
+# 4. VaR Model
+
+
+
+
+# 5. Additional
+
+## 5.1 Risk-Adjusted Return
+
+### 5.1.1 Sharpe ratio
+
+$$\text{sharpe ratio} = \frac{\text{excess returns}}{\text{volatility}} = \frac{\mu - r}{\sigma}$$
+
+
+
+### 5.1.2  Treynor Ratio
+
+$$\frac{\mu - r}{\beta}$$
+
+
+### 5.1.3 Information Ratio
+
+
+### 5.1.4 Jensen Alpha
+
+
+### 5.1.5 M^2
+
+
+# 6. Hedge Fund Strategy
+
+LP, GP: management fee and incentive fee, usually 2&20 [(hurdle rate)](https://www.investopedia.com/terms/h/hurdlerate.asp).
+
+Similarity and difference between [Hedge Fund & Mutual Fund](https://www.investopedia.com/ask/answers/173.asp)
+
+
+## 6.1 Directional strategies
+
+### 6.1.1 Managed Futures
+
+Technical analysis
+
+### 6.1.2 Global Macros
+
+Interest Rate, Currency: *Quantum Group of Funds*
+
+## 6.2 Event - Driven Strategies
+
+### 6.2.1 Risk Arbitrage (Merger Arbitrage)
+
+Deal Risk
+
+### 6.2.2 Distressed Security
+
+
+
+
+
+

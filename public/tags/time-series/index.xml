@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Time Series on </title>
+    <link>https://liyuantong93.com/tags/time-series/</link>
+    <description>Recent content in Time Series on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yuantong Li. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://liyuantong93.com/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linear Time Series</title>
+      <link>https://liyuantong93.com/2018/08/01/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://liyuantong93.com/2018/08/01/</guid>
+      <description>1. Introduction to Time Series Random Walk with drift:
+\[X_t = \delta + X_{t-1} + W_{t}\]
+library(astsa, quietly = TRUE) x = ts(cumsum(rnorm(500) + 0.2)) plot(x) Autocovariance function:
+\[\gamma_{X}(s,t) = E[(X_s - \mu_{X,s})(X_t - \mu_{X,t})]\] and we know \(\gamma_{X}(s,t) = \gamma_{X}(t,s)\)
+Autocorrelation function (ACF):
+\[\rho_{X}(s,t) = \frac{\gamma_{X}(s,t)}{\sqrt{\gamma_{X}(s,s)}\sqrt{\gamma_{X}(t,t)}}\]
+Cross correlation function (CCF):
+\[\rho_{X,Y}(s,t) = \frac{\gamma_{X,Y}(s,t)}{\sqrt{\gamma_{X}(s,s)}\sqrt{\gamma_{Y}(t,t)}}\]
+Strong (or strict) stationarity  A time series \(X_t\) is called strongly stationary if the joint distribution of every finite collection of variables remain the same under time shifts, i.</description>
+    </item>
+    
+  </channel>
+</rss>

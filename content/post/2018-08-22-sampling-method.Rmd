@@ -1,0 +1,103 @@
+---
+title: Sampling Methods
+author: Yuantong
+date: '2018-08-22'
+slug: sampling-method
+categories:
+  - Bayesian
+  - Computing
+  - MCMC
+tags:
+  - Bayesian
+  - Computing
+  - MCMC
+description: ''
+topics: []
+---
+
+## 1. Inverse of CDF
+Inverse transform sampling is a method for generating random numbers from any probability distribution by using its inverse cumulative distribution $F^{-1}(x)$. Recall that the cumulative distribution for a random variable X
+is $F_{X}(x)=P(X \leq x)$. A random variable $U$ uniformly distributed on $[0,1]$.
+
+Step 1. Generate $U \sim Unif(0,1)$.
+
+Step 2. Let $X = F^{-1}_{X}(U)$.
+
+This method works when inverting $F_{X}$ is easy if $X$ is an exponential random variable, but its harder if $X$ is a Normal random variable. It works for discrete distributions.
+
+
+## 2. Rejection Sampling
+The algorithm (used by John von Neumann and dating back to Buffon and his needle) to obtain a sample from distribution $X$ with density $f$ using samples from distribution $Y$ with density $g$ is as follows:
+
+Step 1. Obtain a sample $y$ from distribution $Y$ and a sample$u$ from $Unif(0,1)$.
+
+Step 2. Check whether or not $u \leq \frac{f(y)}{M\cdot g(y)}$:
+        
+a. If this holds, accept $y$ as a sample draw from $f$.
+        
+b. If not, reject the value of $y$ and return to the sampling step.
+
+The algorithm will take an average of $M$ iterations to obtain a sample. The main problem with this process is that $M$ is generally large in high-dimensional spaces and since $f(accept) ∝ 1$, many samples will get rejected.
+
+
+## 3. Importance Sampling
+
+Our goal is to compute $E(f) =  \int f(x)p(x)dx$. 
+
+If we have a density $q(x)$ which is easy to sample from, we can sample $x^{(i)} \sim q(x)$. Define the importance weight:
+
+$$w(x^{(i)}) = \frac{p(x^{(i)})}{q(x^{(i)})}$$
+Consider the weighted Monte Carlo sum:
+
+$$\frac{1}{N} \sum_{i=1}^{N} f(x^{(i)})w(x^{(i)}) = \int f(x)g(x)dx$$
+
+
+## 4. MCMC Method
+Metropolis–Hastings and other MCMC algorithms are generally used for sampling from multi-dimensional distributions, especially when the number of dimensions is high. 
+
+### 4.1 M-H Sampling
+In Metropolis-Hastings sampling, samples mostly move towards higher density regions, but sometimes also move downhill. In comparison to rejection sampling where we always throw away the rejected samples, here we sometimes keep those samples as well.
+
+  1. Init $x^{(0)}$
+
+  2. for $i$ = 0 to $N-1$ do:
+  
+      $u \sim U(0,1)$ 
+      
+      $x^{\star} \sim q(x^{\star}|x^{(i)})$ 
+      
+      if $u \leq \min \{1,\frac{p(x^{\star}) q(x^{(i)}|x^{(\star)})}{p(x^{(i)}) q(x^{\star}|x^{(i)})} \}$ then,
+      
+      
+        $x^{(i+1)} \leftarrow x^{\star}$
+          
+      else
+      
+        $x^{(i+1)} \rightarrow x^{(i)}$
+        
+      end if; end for
+          
+          
+      
+      
+      
+      
+
+
+### 4.2 Gibbs Sampling
+
+
+## 5. Slice Sampling
+
+
+
+## 6. Hamiltonian Monte Carlo
+
+
+## 7. Nested Sampling
+
+
+## 8. Negative Sampling
+
+
+

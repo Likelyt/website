@@ -1,0 +1,104 @@
+---
+title: Create Multiple Directories and Files With Contents
+author: Yuantong
+date: '2018-08-06'
+slug: create-multiple-files
+categories:
+  - Linux
+  - Bash
+tags:
+  - Linux
+  - Bash
+description: ''
+topics: []
+---
+
+
+
+<div id="create-multiple-directories" class="section level3">
+<h3>1. Create multiple directories</h3>
+<pre class="bash"><code>for i in {1..6}; do
+  for j in {1..5}; do
+    for k in {1..10}; do
+      for z in 0.00100 0.00200 0.00300 0.00400 0.00500 0.00600 0.00700 0.00800; do
+        mkdir -p network_$i/CV_$j/layer_$k/lr_$z
+      done
+    done
+  done
+done</code></pre>
+<p>or</p>
+<pre class="bash"><code>mkdir -p network_1/{CV_1,CV_2,CV_3,done}</code></pre>
+</div>
+<div id="create-multiple-files" class="section level3">
+<h3>2. Create multiple files</h3>
+<div id="step-1.-create-a-dir" class="section level4">
+<h4>Step 1. Create A Dir</h4>
+<pre class="bash"><code>mkdir file</code></pre>
+</div>
+<div id="step-2.-move-to-dir" class="section level4">
+<h4>Step 2. Move to Dir</h4>
+<pre class="bash"><code>cd file/</code></pre>
+</div>
+<div id="step-3.-create-100-python-file" class="section level4">
+<h4>Step 3. Create 100 python file</h4>
+<pre class="bash"><code>touch Name{0001..0100}.py</code></pre>
+</div>
+</div>
+<div id="write-some-contents-into-multiple-files" class="section level3">
+<h3>3. Write some contents into multiple files</h3>
+<div id="step-1.-create-some-files-as-1" class="section level4">
+<h4>Step 1. Create Some files as 1</h4>
+</div>
+<div id="step-2.-write-a-for-loop" class="section level4">
+<h4>Step 2. Write a for loop</h4>
+<pre class="bash"><code>cat &gt;&gt; yourfile.sh &lt;&lt; EOL
+line 1 content
+line 2 content
+line 3 content
+EOL</code></pre>
+</div>
+<div id="for-example" class="section level4">
+<h4>For example</h4>
+<p>bash write_into_file.sh</p>
+<pre class="bash"><code>J=1
+for i in *.py
+do
+    echo $i;
+
+    J=$(printf &#39;%04d&#39; $J) 
+    cat &gt;&gt; $i &lt;&lt; EOL
+#!/bin/bash /home/liyt/
+#$ -S /bin/bash
+#$ -j y
+#$ -cwd
+
+#BSUB -J liyt_Job     #LSF job name
+#BSUB -q cceb_normal
+
+module switch python/2.7.10 python/3.5.2
+
+python  Linux_$J.py &gt; results_$J.txt
+
+EOL
+
+    J=`echo $J+1 | bc`
+
+done</code></pre>
+</div>
+<div id="perl" class="section level4">
+<h4>Perl</h4>
+<pre class="bash"><code>@list = (1..100);
+
+foreach my $i (@list){
+    my $i = sprintf (&quot;%04d&quot;, $i);
+    system &quot;bsub sh name_$i\.sh&quot;;
+    #print &quot;$i\n&quot;;
+}</code></pre>
+</div>
+</div>
+<div id="edit-one-line-in-multiple-files" class="section level3">
+<h3>3. Edit one line in multiple files</h3>
+<pre class="bash"><code>for i in *.py; do
+    sed -i -e &#39;s/old_string/new_string/g&#39; $i
+done</code></pre>
+</div>

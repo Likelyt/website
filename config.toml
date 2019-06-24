@@ -1,0 +1,67 @@
+baseurl = "https://liyuantong93.com/"
+publishDir = "docs"
+languageCode = "en-us"
+author = "Yuantong Li"
+canonifyurls = true
+paginate = 10
+theme = "blackburn"
+disqusShortname = ""
+copyright = "&copy; 2018 Yuantong Li. All rights reserved."
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[permalinks]
+    post = "/:year/:month/:day"
+    
+    
+[params]
+    brand = "Yuantong Li"
+    subtitle = ""
+    dateFormat = "02 Jan 2006"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlight = true
+    highlightjs = "Ascetic"
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml", "Python", "Bash"]
+    highlightjsTheme = "Github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    
+    
+  
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/home/"
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-institution fa-fw'></i>"
+    weight = 2
+    identifier = "Posts"
+    url = "/post/"
+
+  [[menu.main]]
+    name = "Publications"
+    pre = "<i class='fa fa-book fa-fw'></i>"
+    weight = 3
+    identifier = "research"
+    url = "/Publications/"
+    
+
+[social]
+  linkedin = "yuantongli"
+  github = "Likelyt"
+
