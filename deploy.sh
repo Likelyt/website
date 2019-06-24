@@ -8,7 +8,7 @@ git remote add origin git@github.com:Likelyt/website
 hugo
 
 # Go To Public folder
-cd public
+rm -r public
 
 # Add changes to git.
 git add .
