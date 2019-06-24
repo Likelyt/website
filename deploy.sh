@@ -2,7 +2,7 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub of www.liyuantong93.com...\033[0m"
 
-git remote add origin git@github.com:Likelyt/Personal-web
+git remote add origin git@github.com:Likelyt/website
 
 # Build the project. just in the website [dir]
 hugo
