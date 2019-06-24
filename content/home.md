@@ -13,7 +13,7 @@ My email address is: <liyuantong93@gmail.com>
 
 #### Research Interests:
 
-* High-dimensional statistics, graphical model, Bayesian methods
+* High-dimensional statistics, graphical model, BBayesian methods
 
 * Deep learning, machine learning
 
