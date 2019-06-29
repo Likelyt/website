@@ -19,7 +19,7 @@ My email address is: <liyuantong93@gmail.com>
 
 #### Education:
 
-* Ph.D. in Statistics, [Purdue University](http://www.stat.purdue.edu), 2019 - 2023.
+* Ph.D. in Statistics, [Purdue University](http://www.stat.purdue.edu), 2019 to Now.
 
 * M.S. in Statistics, [North Carolina State University](https://www.stat.ncsu.edu), 2016 - 2018.
 
