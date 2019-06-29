@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 date: 2018-07-02T01:22:11-04:00
-draft: true
+draft: false
 ---
 
 **Manuscripts under review/working paper**

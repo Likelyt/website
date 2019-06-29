@@ -8,7 +8,7 @@ echo -e "\033[0;32mDeploying updates to GitHub of www.liyuantong93.com...\033[0m
 hugo
 
 # Go To Public folder
-rm -r public
+#rm -r public
 
 # Add changes to git.
 git add .
