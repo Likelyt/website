@@ -18,7 +18,7 @@
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://liyuantong93.com/2019/05/28/</guid>
-      <description>Information Retrieval</description>
+      <description>In IR, the true loss functions can be those defined based on NDCG (Normalized Discounted Cumulative Gain) and MAP (Mean Average Precision).</description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@ This method works when inverting \(F_{X}\) is easy if \(X\) is an exponential ra
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://liyuantong93.com/2018/08/20/</guid>
-      <description></description>
+      <description>Original Paper: EM algorithm</description>
     </item>
     
     <item>
