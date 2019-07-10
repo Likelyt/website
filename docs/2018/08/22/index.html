@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.42.2" />
 
-  <title>Sampling Methods &middot; </title>
+  <title>Sampling Methods and Monte Carlo methods &middot; </title>
 
   
   
@@ -200,7 +200,7 @@
 
 
 <div class="header">
-  <h1>Sampling Methods</h1>
+  <h1>Sampling Methods and Monte Carlo methods</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -237,7 +237,16 @@
 
 </div>
 
-  <div id="inverse-of-cdf" class="section level2">
+  <p>Suppose we have a function <span class="math inline">\(f(x)\)</span> and we’d like to compute <span class="math inline">\(E{f(X )} =\int f(x)p(x)dx\)</span>, where <span class="math inline">\(g(x)\)</span> is a density.</p>
+<p>There is no guarantee that the techniques we learn in calculus are sufficient to evaluate this integral analytically.</p>
+<p>Thankfully, the law of large numbers (LLN) is here to help:</p>
+<p>If X1, X2, . . . are iid samples from <span class="math inline">\(g(x)\)</span>, then</p>
+<p><span class="math inline">\(\frac{1}{n}\sum^{n}_{i=1}f(x_{i}) \rightarrow \int f(x)p(x)dx = E[f(x)]\)</span> with prob 1</p>
+<p>Suggests that a generic approximation of the integral be obtained by sampling lots of Xi ’s from <span class="math inline">\(g(x)\)</span> and replacing integration with averaging.</p>
+<p>This is the heart of the Monte Carlo method.</p>
+<div id="naive-method" class="section level1">
+<h1>1. Naive method</h1>
+<div id="inverse-of-cdf" class="section level2">
 <h2>1. Inverse of CDF</h2>
 <p>Inverse transform sampling is a method for generating random numbers from any probability distribution by using its inverse cumulative distribution <span class="math inline">\(F^{-1}(x)\)</span>. Recall that the cumulative distribution for a random variable X
 is <span class="math inline">\(F_{X}(x)=P(X \leq x)\)</span>. A random variable <span class="math inline">\(U\)</span> uniformly distributed on <span class="math inline">\([0,1]\)</span>.</p>
@@ -245,8 +254,11 @@ is <span class="math inline">\(F_{X}(x)=P(X \leq x)\)</span>. A random variable 
 <p>Step 2. Let <span class="math inline">\(X = F^{-1}_{X}(U)\)</span>.</p>
 <p>This method works when inverting <span class="math inline">\(F_{X}\)</span> is easy if <span class="math inline">\(X\)</span> is an exponential random variable, but its harder if <span class="math inline">\(X\)</span> is a Normal random variable. It works for discrete distributions.</p>
 </div>
-<div id="rejection-sampling" class="section level2">
-<h2>2. Rejection Sampling</h2>
+</div>
+<div id="monte-carlo-method" class="section level1">
+<h1>2. Monte Carlo method</h1>
+<div id="accept---reject-sampling" class="section level2">
+<h2>1. Accept - Reject Sampling</h2>
 <p>The algorithm (used by John von Neumann and dating back to Buffon and his needle) to obtain a sample from distribution <span class="math inline">\(X\)</span> with density <span class="math inline">\(f\)</span> using samples from distribution <span class="math inline">\(Y\)</span> with density <span class="math inline">\(g\)</span> is as follows:</p>
 <p>Step 1. Obtain a sample <span class="math inline">\(y\)</span> from distribution <span class="math inline">\(Y\)</span> and a sample<span class="math inline">\(u\)</span> from <span class="math inline">\(Unif(0,1)\)</span>.</p>
 <p>Step 2. Check whether or not <span class="math inline">\(u \leq \frac{f(y)}{M\cdot g(y)}\)</span>:</p>
@@ -257,18 +269,19 @@ is <span class="math inline">\(F_{X}(x)=P(X \leq x)\)</span>. A random variable 
 <p>The algorithm will take an average of <span class="math inline">\(M\)</span> iterations to obtain a sample. The main problem with this process is that <span class="math inline">\(M\)</span> is generally large in high-dimensional spaces and since <span class="math inline">\(f(accept) ∝ 1\)</span>, many samples will get rejected.</p>
 </div>
 <div id="importance-sampling" class="section level2">
-<h2>3. Importance Sampling</h2>
+<h2>2. Importance Sampling</h2>
 <p>Our goal is to compute <span class="math inline">\(E(f) = \int f(x)p(x)dx\)</span>.</p>
 <p>If we have a density <span class="math inline">\(q(x)\)</span> which is easy to sample from, we can sample <span class="math inline">\(x^{(i)} \sim q(x)\)</span>. Define the importance weight:</p>
 <p><span class="math display">\[w(x^{(i)}) = \frac{p(x^{(i)})}{q(x^{(i)})}\]</span>
 Consider the weighted Monte Carlo sum:</p>
 <p><span class="math display">\[\frac{1}{N} \sum_{i=1}^{N} f(x^{(i)})w(x^{(i)}) = \int f(x)g(x)dx\]</span></p>
 </div>
-<div id="mcmc-method" class="section level2">
-<h2>4. MCMC Method</h2>
+</div>
+<div id="mcmc-method" class="section level1">
+<h1>3. MCMC Method</h1>
 <p>Metropolis–Hastings and other MCMC algorithms are generally used for sampling from multi-dimensional distributions, especially when the number of dimensions is high.</p>
-<div id="m-h-sampling" class="section level3">
-<h3>4.1 M-H Sampling</h3>
+<div id="m-h-sampling" class="section level2">
+<h2>1 M-H Sampling</h2>
 <p>In Metropolis-Hastings sampling, samples mostly move towards higher density regions, but sometimes also move downhill. In comparison to rejection sampling where we always throw away the rejected samples, here we sometimes keep those samples as well.</p>
 <ol style="list-style-type: decimal">
 <li><p>Init <span class="math inline">\(x^{(0)}\)</span></p></li>
@@ -282,21 +295,24 @@ Consider the weighted Monte Carlo sum:</p>
 <p>end if; end for</p></li>
 </ol>
 </div>
-<div id="gibbs-sampling" class="section level3">
-<h3>4.2 Gibbs Sampling</h3>
+<div id="gibbs-sampling" class="section level2">
+<h2>2 Gibbs Sampling</h2>
 </div>
 </div>
+<div id="other-methods" class="section level1">
+<h1>4. Other Methods</h1>
 <div id="slice-sampling" class="section level2">
-<h2>5. Slice Sampling</h2>
+<h2>1. Slice Sampling</h2>
 </div>
 <div id="hamiltonian-monte-carlo" class="section level2">
-<h2>6. Hamiltonian Monte Carlo</h2>
+<h2>2. Hamiltonian Monte Carlo</h2>
 </div>
 <div id="nested-sampling" class="section level2">
-<h2>7. Nested Sampling</h2>
+<h2>3. Nested Sampling</h2>
 </div>
 <div id="negative-sampling" class="section level2">
-<h2>8. Negative Sampling</h2>
+<h2>4. Negative Sampling</h2>
+</div>
 </div>
 
 

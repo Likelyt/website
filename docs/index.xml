@@ -22,15 +22,16 @@
     </item>
     
     <item>
-      <title>Sampling Methods</title>
+      <title>Sampling Methods and Monte Carlo methods</title>
       <link>https://liyuantong93.com/2018/08/22/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://liyuantong93.com/2018/08/22/</guid>
-      <description>1. Inverse of CDF Inverse transform sampling is a method for generating random numbers from any probability distribution by using its inverse cumulative distribution \(F^{-1}(x)\). Recall that the cumulative distribution for a random variable X is \(F_{X}(x)=P(X \leq x)\). A random variable \(U\) uniformly distributed on \([0,1]\).
-Step 1. Generate \(U \sim Unif(0,1)\).
-Step 2. Let \(X = F^{-1}_{X}(U)\).
-This method works when inverting \(F_{X}\) is easy if \(X\) is an exponential random variable, but its harder if \(X\) is a Normal random variable.</description>
+      <description>Suppose we have a function \(f(x)\) and we’d like to compute \(E{f(X )} =\int f(x)p(x)dx\), where \(g(x)\) is a density.
+There is no guarantee that the techniques we learn in calculus are sufficient to evaluate this integral analytically.
+Thankfully, the law of large numbers (LLN) is here to help:
+If X1, X2, . . . are iid samples from \(g(x)\), then
+\(\frac{1}{n}\sum^{n}_{i=1}f(x_{i}) \rightarrow \int f(x)p(x)dx = E[f(x)]\) with prob 1</description>
     </item>
     
     <item>
