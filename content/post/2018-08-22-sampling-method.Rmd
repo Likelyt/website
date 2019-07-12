@@ -97,10 +97,42 @@ In Metropolis-Hastings sampling, samples mostly move towards higher density regi
       
 ## 2 Gibbs Sampling
 
+The Gibbs sampler is specially adapted for multidimenional target distribution. The goal is to construct a Markov chain whose stationary distribution - or some marginalization thereof - equals the target distribution. The Gibbs sampler does this by sequentially sampling from univariate conditional distributions, which are often available in closed form. 
+
+Gibbs sampler in each dimension satisfies the detailed balance equalization, so the acceptance rate is 1. So Gibbs sampling method is part of M-H sampling method. (For the ith dimenison, the acceptance rate is 1, the other dimension acceptance rate is 0.)
+
+1. *Basic method*: specific ordering and random scan Gibbs sampling.
+
+2. *Blocking*: Blocking is typically useful when element of X are correlated, with the algorithm constructed so that more correlated elements are sampled together in one block.
+
+3. *Hybrid Gibbs Sampling*: Metropolis-within-Gibbs
+
+4. *Implemention*: Ensuring good mixing and convergence: simple graphical diagnostics, burn-in and run length, choice of propsal, reparameterization, comparing chains (effective sample size), number of chains
+
+## 3. Reversible Jump MCMC
+
+An MCMC algorithm that allows for model selection.
+
+*Examples: choosing number of clusters K, or even switching between two completely different models $P_{1}(x)$ and $P_{2}(x)$*
+
+[CMU Dr. Eric Xing Lecture Notes (18)](https://www.cs.cmu.edu/~epxing/Class/10708-14/lectures/lecture18-AdvMCMC.pdf)
+
 
 # 4. Other Methods
 
+Advanced MCMC algorithms rely on auxiliary variables.
+
+1. *$P(x|v)$ and $P(v|x)$ have simple forms.*
+
+2. *$P(x,v)$ is easy to navigate.*
+
+
 ## 1. Slice Sampling
+
+Slice sampling is an auxiliary variable MCMC algorithm.
+
+[CMU Dr. Eric Xing Lecture Notes (18)](https://www.cs.cmu.edu/~epxing/Class/10708-14/lectures/lecture18-AdvMCMC.pdf)
+
 
 ## 2. Hamiltonian Monte Carlo
 

@@ -297,12 +297,33 @@ Consider the weighted Monte Carlo sum:</p>
 </div>
 <div id="gibbs-sampling" class="section level2">
 <h2>2 Gibbs Sampling</h2>
+<p>The Gibbs sampler is specially adapted for multidimenional target distribution. The goal is to construct a Markov chain whose stationary distribution - or some marginalization thereof - equals the target distribution. The Gibbs sampler does this by sequentially sampling from univariate conditional distributions, which are often available in closed form.</p>
+<p>Gibbs sampler in each dimension satisfies the detailed balance equalization, so the acceptance rate is 1. So Gibbs sampling method is part of M-H sampling method. (For the ith dimenison, the acceptance rate is 1, the other dimension acceptance rate is 0.)</p>
+<ol style="list-style-type: decimal">
+<li><p><em>Basic method</em>: specific ordering and random scan Gibbs sampling.</p></li>
+<li><p><em>Blocking</em>: Blocking is typically useful when element of X are correlated, with the algorithm constructed so that more correlated elements are sampled together in one block.</p></li>
+<li><p><em>Hybrid Gibbs Sampling</em>: Metropolis-within-Gibbs</p></li>
+<li><p><em>Implemention</em>: Ensuring good mixing and convergence: simple graphical diagnostics, burn-in and run length, choice of propsal, reparameterization, comparing chains (effective sample size), number of chains</p></li>
+</ol>
+</div>
+<div id="reversible-jump-mcmc" class="section level2">
+<h2>3. Reversible Jump MCMC</h2>
+<p>An MCMC algorithm that allows for model selection.</p>
+<p><em>Examples: choosing number of clusters K, or even switching between two completely different models <span class="math inline">\(P_{1}(x)\)</span> and <span class="math inline">\(P_{2}(x)\)</span></em></p>
+<p><a href="https://www.cs.cmu.edu/~epxing/Class/10708-14/lectures/lecture18-AdvMCMC.pdf">CMU Dr. Eric Xing Lecture Notes (18)</a></p>
 </div>
 </div>
 <div id="other-methods" class="section level1">
 <h1>4. Other Methods</h1>
+<p>Advanced MCMC algorithms rely on auxiliary variables.</p>
+<ol style="list-style-type: decimal">
+<li><p><em><span class="math inline">\(P(x|v)\)</span> and <span class="math inline">\(P(v|x)\)</span> have simple forms.</em></p></li>
+<li><p><em><span class="math inline">\(P(x,v)\)</span> is easy to navigate.</em></p></li>
+</ol>
 <div id="slice-sampling" class="section level2">
 <h2>1. Slice Sampling</h2>
+<p>Slice sampling is an auxiliary variable MCMC algorithm.</p>
+<p><a href="https://www.cs.cmu.edu/~epxing/Class/10708-14/lectures/lecture18-AdvMCMC.pdf">CMU Dr. Eric Xing Lecture Notes (18)</a></p>
 </div>
 <div id="hamiltonian-monte-carlo" class="section level2">
 <h2>2. Hamiltonian Monte Carlo</h2>
