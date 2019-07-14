@@ -141,4 +141,7 @@ Slice sampling is an auxiliary variable MCMC algorithm.
 ## 4. Negative Sampling
 
 
+# Reference:
+[Bayesian Inference: Metropolis-Hastings Sampling, Ilker Yildirim](http://www.mit.edu/~ilkery/papers/MetropolisHastingsSampling.pdf)
+
 
