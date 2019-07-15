@@ -18,4 +18,3 @@ topics: []
 The Factor Analysis [note](https://www.cs.cmu.edu/~pmuthuku/mlsp_page/lectures/slides/JFA_presentation_final.pdf) from CMU.
 
 The PCA
-
