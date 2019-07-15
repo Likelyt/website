@@ -21,7 +21,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     brand = "Yuantong Li"
     subtitle = ""
     dateFormat = "02 Jan 2006"
-    disqusShortname = "yuantongli"
+    disqusShortname = "www-liyuantong93-com"
 
     # options for highlight.js (version, additional languages, and theme)
     highlight = true
