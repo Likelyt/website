@@ -5,7 +5,6 @@ author = "Yuantong Li"
 canonifyurls = true
 paginate = 10
 theme = "blackburn"
-disqusShortname = ""
 copyright = "&copy; 2018 Yuantong Li. All rights reserved."
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
@@ -22,6 +21,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     brand = "Yuantong Li"
     subtitle = ""
     dateFormat = "02 Jan 2006"
+    disqusShortname = "yuantongli"
 
     # options for highlight.js (version, additional languages, and theme)
     highlight = true
