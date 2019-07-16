@@ -19,7 +19,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     
 [params]
     brand = "Yuantong Li"
-    subtitle = ""
+    subtitle = "A statistics and computer science blog by Yuantong"
     dateFormat = "02 Jan 2006"
     disqus = "www-liyuantong93-com"
 
