@@ -15,3 +15,6 @@ topics: []
 Original Paper: [EM algorithm](https://www.jstor.org/stable/pdf/2984875.pdf)
 
 Lecture Notes [1](https://www.stat.cmu.edu/~cshalizi/350/lectures/29/lecture-29.pdf), [2](https://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch20.pdf)
+
+Wikipedia gives a really great explanantion [3](https://en.wikipedia.org/wiki/Expectation–maximization_algorithm)
+

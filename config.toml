@@ -65,4 +65,3 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [social]
   linkedin = "yuantongli"
   github = "Likelyt"
-
