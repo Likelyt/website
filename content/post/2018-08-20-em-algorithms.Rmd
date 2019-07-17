@@ -18,3 +18,6 @@ Lecture Notes [1](https://www.stat.cmu.edu/~cshalizi/350/lectures/29/lecture-29.
 
 Wikipedia gives a really great explanantion [3](https://en.wikipedia.org/wiki/Expectation–maximization_algorithm)
 
+[Whole map](http://www.sohu.com/a/210551059_473283)
+
+
