@@ -1,0 +1,18 @@
+---
+title: Generalized Linear Model
+author: Yuantong
+date: '2019-07-18'
+slug: generalized-linear-model
+categories:
+  - Statistics
+  - Linear Model
+tags:
+  - Statistics
+  - Linear Model
+description: ''
+topics: []
+---
+
+In statistics, the generalized linear model (GLM) is a flexible generalization of ordinary linear regression that allows for response variables that have error distribution models other than a normal distribution. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a link function and by allowing the magnitude of the variance of each measurement to be a function of its predicted value.
+
+
