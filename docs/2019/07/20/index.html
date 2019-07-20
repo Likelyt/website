@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.42.2" />
 
-  <title>Generalized Linear Model &middot; </title>
+  <title>Conjugated gradient &middot; </title>
 
   
   
@@ -200,7 +200,7 @@
 
 
 <div class="header">
-  <h1>Generalized Linear Model</h1>
+  <h1>Conjugated gradient</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -209,7 +209,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>18 Jul 2019</time>
+    <time>20 Jul 2019</time>
   </div>
 
   
@@ -225,9 +225,7 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/statistics">Statistics</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/linear-model">Linear Model</a>
+      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/optimization">Optimization</a>
     
   </div>
   
@@ -235,20 +233,29 @@
 
 </div>
 
-  <p>In statistics, the generalized linear model (GLM) is a flexible generalization of ordinary linear regression that allows for response variables that have error distribution models other than a normal distribution. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a link function and by allowing the magnitude of the variance of each measurement to be a function of its predicted value.</p>
+  <p>Two vectors <span class="math inline">\(u\)</span> and <span class="math inline">\(v\)</span> are conjugate with respect to the matrix <span class="math inline">\(A\)</span> if <span class="math inline">\(u^{\prime} A v = 0\)</span>.</p>
+<p>Suppose we want to minimize the quadratic function
+<span class="math display">\[
+f(x)=\frac{1}{2} x^{\prime} A x-x^{\prime} b
+\]</span>
+where <span class="math inline">\(x\)</span> is a <span class="math inline">\(p\)</span>-dimensional vector and <span class="math inline">\(A\)</span> is a <span class="math inline">\(p\times p\)</span> symmetric matrix. <span class="math inline">\(p_{0}=-f^{\prime}\left(x_{0}\right)=b-A x_{0}\)</span>, which is the negative gradient. So we can begin with the steepest descent direction <span class="math inline">\(-f^{\prime}\left(x_{1}\right)\)</span> but then we must modify it to make it conjugate to <span class="math inline">\(p_{0}\)</span>. The constraint <span class="math inline">\(p_{0}^{\prime} A p_{1}=0\)</span> allows us to back calculate the next direction, starting with <span class="math inline">\(-f^{\prime}\left(x_{1}\right)\)</span>, because we have</p>
+<p><span class="math display">\[
+p_{0}^{\prime} A\left(-f^{\prime}-\frac{p_{0}^{\prime} A\left(-f^{\prime}\right)}{p_{0}^{\prime} A p_{0}} p_{0}\right)=0
+\]</span></p>
+<p>Each time taking the steepest descent direction and modifying it to make it conjugate with the previous direction.</p>
 
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://liyuantong93.com/2019/07/17/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://liyuantong93.com/2019/07/18/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://liyuantong93.com/2019/07/17/">Stochastic Variational Inference</a>
+      <a href="https://liyuantong93.com/2019/07/18/">Generalized Linear Model</a>
     </nav>
     
   </div>
@@ -257,14 +264,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://liyuantong93.com/2019/07/20/">Conjugated gradient</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://liyuantong93.com/2019/07/20/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

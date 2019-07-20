@@ -214,6 +214,53 @@
   
     <article>
   <header>
+    <h2><a href="https://liyuantong93.com/2019/07/20/">Conjugated gradient</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>20 Jul 2019</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/optimization">Optimization</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  Two vectors \(u\) and \(v\) are conjugate with respect to the matrix \(A\) if \(u^{\prime} A v = 0\).
+Suppose we want to minimize the quadratic function \[ f(x)=\frac{1}{2} x^{\prime} A x-x^{\prime} b \] where \(x\) is a \(p\)-dimensional vector and \(A\) is a \(p\times p\) symmetric matrix. \(p_{0}=-f^{\prime}\left(x_{0}\right)=b-A x_{0}\), which is the negative gradient. So we can begin with the steepest descent direction \(-f^{\prime}\left(x_{1}\right)\) but then we must modify it to make it conjugate to \(p_{0}\).
+  </p>
+
+  
+  <footer>
+    <a href="https://liyuantong93.com/2019/07/20/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
     <h2><a href="https://liyuantong93.com/2019/07/18/">Generalized Linear Model</a></h2>
 
     <div class="post-meta">
@@ -617,62 +664,6 @@ mkdir -p network_1/{CV_1,CV_2,CV_3,done}  2. Create multiple files Step 1. Creat
   
   <footer>
     <a href="https://liyuantong93.com/2018/08/06/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://liyuantong93.com/2018/08/01/">Linear Time Series</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>01 Aug 2018</time>
-  </div>
-
-  
-
-  
-  
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/time-series">Time Series</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/r">R</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  1. Introduction to Time Series Random Walk with drift:
-\[X_t = \delta + X_{t-1} + W_{t}\]
-library(astsa, quietly = TRUE) x = ts(cumsum(rnorm(500) + 0.2)) plot(x) Autocovariance function:
-\[\gamma_{X}(s,t) = E[(X_s - \mu_{X,s})(X_t - \mu_{X,t})]\] and we know \(\gamma_{X}(s,t) = \gamma_{X}(t,s)\)
-Autocorrelation function (ACF):
-\[\rho_{X}(s,t) = \frac{\gamma_{X}(s,t)}{\sqrt{\gamma_{X}(s,s)}\sqrt{\gamma_{X}(t,t)}}\]
-Cross correlation function (CCF):
-\[\rho_{X,Y}(s,t) = \frac{\gamma_{X,Y}(s,t)}{\sqrt{\gamma_{X}(s,s)}\sqrt{\gamma_{Y}(t,t)}}\]
-Strong (or strict) stationarity  A time series \(X_t\) is called strongly stationary if the joint distribution of every finite collection of variables remain the same under time shifts, i.
-  </p>
-
-  
-  <footer>
-    <a href="https://liyuantong93.com/2018/08/01/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
   </footer>
   
 </article>

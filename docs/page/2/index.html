@@ -214,6 +214,62 @@
   
     <article>
   <header>
+    <h2><a href="https://liyuantong93.com/2018/08/01/">Linear Time Series</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>01 Aug 2018</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/time-series">Time Series</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/r">R</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  1. Introduction to Time Series Random Walk with drift:
+\[X_t = \delta + X_{t-1} + W_{t}\]
+library(astsa, quietly = TRUE) x = ts(cumsum(rnorm(500) + 0.2)) plot(x) Autocovariance function:
+\[\gamma_{X}(s,t) = E[(X_s - \mu_{X,s})(X_t - \mu_{X,t})]\] and we know \(\gamma_{X}(s,t) = \gamma_{X}(t,s)\)
+Autocorrelation function (ACF):
+\[\rho_{X}(s,t) = \frac{\gamma_{X}(s,t)}{\sqrt{\gamma_{X}(s,s)}\sqrt{\gamma_{X}(t,t)}}\]
+Cross correlation function (CCF):
+\[\rho_{X,Y}(s,t) = \frac{\gamma_{X,Y}(s,t)}{\sqrt{\gamma_{X}(s,s)}\sqrt{\gamma_{Y}(t,t)}}\]
+Strong (or strict) stationarity  A time series \(X_t\) is called strongly stationary if the joint distribution of every finite collection of variables remain the same under time shifts, i.
+  </p>
+
+  
+  <footer>
+    <a href="https://liyuantong93.com/2018/08/01/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
     <h2><a href="https://liyuantong93.com/2018/07/31/">Monte Carlo In Financial Derivatives</a></h2>
 
     <div class="post-meta">

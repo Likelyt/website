@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimization on </title>
+    <link>https://liyuantong93.com/tags/optimization/</link>
+    <description>Recent content in Optimization on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yuantong Li. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 20 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://liyuantong93.com/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conjugated gradient</title>
+      <link>https://liyuantong93.com/2019/07/20/</link>
+      <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://liyuantong93.com/2019/07/20/</guid>
+      <description>Two vectors \(u\) and \(v\) are conjugate with respect to the matrix \(A\) if \(u^{\prime} A v = 0\).
+Suppose we want to minimize the quadratic function \[ f(x)=\frac{1}{2} x^{\prime} A x-x^{\prime} b \] where \(x\) is a \(p\)-dimensional vector and \(A\) is a \(p\times p\) symmetric matrix. \(p_{0}=-f^{\prime}\left(x_{0}\right)=b-A x_{0}\), which is the negative gradient. So we can begin with the steepest descent direction \(-f^{\prime}\left(x_{1}\right)\) but then we must modify it to make it conjugate to \(p_{0}\).</description>
+    </item>
+    
+  </channel>
+</rss>
