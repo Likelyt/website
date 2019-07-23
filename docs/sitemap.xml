@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://liyuantong93.com/2019/07/23/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/2019/07/22/</loc>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/2019/07/21/</loc>
     <lastmod>2019-07-21T00:00:00+00:00</lastmod>
   </url>
@@ -94,7 +104,7 @@
   
   <url>
     <loc>https://liyuantong93.com/</loc>
-    <lastmod>2019-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -119,6 +129,12 @@
   <url>
     <loc>https://liyuantong93.com/tags/computing/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/tags/convex-optimization/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -184,13 +200,13 @@
   
   <url>
     <loc>https://liyuantong93.com/tags/optimization/</loc>
-    <lastmod>2019-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://liyuantong93.com/post/</loc>
-    <lastmod>2019-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -202,7 +218,7 @@
   
   <url>
     <loc>https://liyuantong93.com/tags/regularization/</loc>
-    <lastmod>2019-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -238,6 +254,12 @@
   
   <url>
     <loc>https://liyuantong93.com/topics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/tags/variable-selection/</loc>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

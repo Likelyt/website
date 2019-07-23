@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Regularization on </title>
-    <link>https://liyuantong93.com/tags/regularization/</link>
-    <description>Recent content in Regularization on </description>
+    <title>Variable Selection on </title>
+    <link>https://liyuantong93.com/tags/variable-selection/</link>
+    <description>Recent content in Variable Selection on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Yuantong Li. All rights reserved.</copyright>
     <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://liyuantong93.com/tags/regularization/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liyuantong93.com/tags/variable-selection/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://liyuantong93.com/2019/07/22/</guid>
       <description>Notes</description>
-    </item>
-    
-    <item>
-      <title>Moreau-Yosida regularization</title>
-      <link>https://liyuantong93.com/2019/07/21/</link>
-      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://liyuantong93.com/2019/07/21/</guid>
-      <description>UCLA ECE236C: Optimization Methods for Large-scale Systems Notes</description>
     </item>
     
   </channel>
