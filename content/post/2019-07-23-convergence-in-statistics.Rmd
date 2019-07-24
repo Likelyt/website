@@ -1,0 +1,24 @@
+---
+title: Convergence in statistics
+author: Yuantong
+date: '2019-07-24'
+slug: convergence-in-statistics
+categories:
+  - Statistics
+tags:
+  - Statistics
+description: ''
+topics: []
+---
+
+### 1. convergence in distribution
+
+
+### 2. convergence in probability
+
+
+### 3. convergence in $L_{P}$
+
+
+### 4. convergence almost surely
+
