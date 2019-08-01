@@ -7,7 +7,7 @@ draft: false
 
 ### Welcome to Yuantong Li's website! (@_@)
 
-I'm Yuantong Li, graduated from North Carolina State University with M.S. degree in Statistics in 2018 and will move to Purdue University to pursue a Ph.D. degree in Statistics in this August.
+I'm Yuantong Li, phd student in the Department of Statistics of Purdue Univeristy. I obtained my M.S. degree in Statistics from North Carolina State University in 2018 and got my B.S. degree in Mathematics degree from Zhejiang University in 2016.
 
 My email address is: <liyuantong93@gmail.com>
 
@@ -29,7 +29,7 @@ My email address is: <liyuantong93@gmail.com>
 
 #### Reserach and Working Experience:
 
-*  Research Assistant, working with Dr. [Fei Wang](https://sites.google.com/site/feiwang03/) in the Department of Department of Healthcare Policy and Research, Cornell University, Feb 2019.
+*  Research Assistant, working with Dr. [Fei Wang](https://sites.google.com/site/feiwang03/) in the Department of Department of Healthcare Policy and Research, Cornell University, Feb 2019 - Aug 2019.
 
 *  Research Associate, working with Dr. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/) in the Department of Computer Science and Engineering, Ohio State University, Sep 2018 - Jan 2019.
 
