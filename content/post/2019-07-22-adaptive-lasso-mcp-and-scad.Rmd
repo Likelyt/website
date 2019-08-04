@@ -13,4 +13,4 @@ description: ''
 topics: []
 ---
 
-[Notes](http://myweb.uiowa.edu/pbreheny/7600/s16/notes/2-29.pdf)
+Univeristy of Iowa [Notes](http://myweb.uiowa.edu/pbreheny/7600/s16/notes/2-29.pdf)
