@@ -32,7 +32,7 @@ Email: <liyuantong93@gmail.com>
 * B.S. in Mathematics, [Shing-Tung Yau’s Mathematics Elite Class](http://www.yau-awards.org/yauclass.php), [Chu Kochen Honor College](http://ckc.zju.edu.cn/english/), [Zhejiang University](https://www.zju.edu.cn/english/), 2012 - 2016.
 
 
-#### Professional Services
+#### Professional Services:
 
 Journal Reviewer: [IEEE TNNLS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385).
 
@@ -41,7 +41,6 @@ Journal Reviewer: [IEEE TNNLS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?p
 *  **Research Assistant**, working with Dr. [Fei Wang](https://sites.google.com/site/feiwang03/) in the Department of Department of Healthcare Policy and Research, Cornell University, Feb 2019 - Aug 2019.
 
 *  **Research Associate**, working with Dr. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/) in the Department of Computer Science and Engineering, Ohio State University, Sep 2018 - Jan 2019.
-
 
 #### Reseraching:
 
