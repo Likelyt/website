@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Yuantong Li. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://liyuantong93.com/tags/computing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to use multiple GPUs on Pytorch</title>
+      <link>https://liyuantong93.com/2019/08/12/</link>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://liyuantong93.com/2019/08/12/</guid>
+      <description>An official note on how to use multiple GPUs on Pytorch.</description>
+    </item>
     
     <item>
       <title>Sampling Methods and Monte Carlo methods</title>
