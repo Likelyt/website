@@ -1,6 +1,5 @@
 ---
 title: Talks
-author: ''
 date: '2019-09-26'
 draft: false
 ---
