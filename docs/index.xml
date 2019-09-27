@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Yuantong Li. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 12 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://liyuantong93.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Talks</title>
+      <link>https://liyuantong93.com/talks/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://liyuantong93.com/talks/</guid>
+      <description> Online Minimax Regret Bounded by Sequential Rademacher Complexity, Purdue University, Sep 26, 2019. Slides  </description>
+    </item>
     
     <item>
       <title>How to use multiple GPUs on Pytorch</title>
@@ -18,7 +27,8 @@
       <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://liyuantong93.com/2019/08/12/</guid>
-      <description>An official note on how to use multiple GPUs on Pytorch.</description>
+      <description>An official note on how to use multiple GPUs on Pytorch.
+Another avaiable on horovod</description>
     </item>
     
     <item>
@@ -262,10 +272,9 @@ Download website: Vim Download</description>
 Office: HAAS 271, Department of Statistics, &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 250 University St, Purdue University, &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; West Lafayette, Indiana IN 47907
 Email: liyuantong93@gmail.com
 Research Interests:  High-dimensional statistics, graphical model, Bayesian methods
- Deep learning, machine learning
-  Education:  Ph.D. in Statistics, Purdue University, 2019 - Now.
- M.S. in Statistics, North Carolina State University, 2016 - 2018.
- B.S. in Mathematics, Shing-Tung Yau’s Mathematics Elite Class, Chu Kochen Honor College, Zhejiang University, 2012 - 2016.</description>
+ Machine learning, online learning, learning theory, Natural language processing
+  Education:  Ph.D. in Statistics, Purdue University, 2019 - Present.
+ M.S. in Statistics, North Carolina State University, 2016 - 2018.</description>
     </item>
     
   </channel>

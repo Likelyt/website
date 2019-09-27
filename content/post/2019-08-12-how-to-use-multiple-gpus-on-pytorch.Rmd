@@ -16,3 +16,6 @@ topics: []
 An official [note](https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html) on how to use multiple GPUs on Pytorch.
 
 
+Another avaiable on [horovod](https://github.com/horovod/horovod)
+
+
