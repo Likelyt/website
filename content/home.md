@@ -15,7 +15,7 @@ Office: HAAS 271, [Department of Statistics](http://www.stat.purdue.edu/index.ph
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 West Lafayette, Indiana IN 47907
 
-Email: <liyuantong93@gmail.com>
+Email: liyuantong93 (AT) gmail (DOT) com
 
 #### Research Interests:
 
@@ -50,8 +50,6 @@ Department of Biostatistics, Epidemiology and Informatics, University of Pennsyl
 
 Journal Reviewer: [IEEE TNNLS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385).
 
-
-#### Talks
 
 
 
