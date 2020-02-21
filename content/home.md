@@ -25,7 +25,7 @@ Email: liyuantong93 (AT) gmail (DOT) com
 
 #### Education:
 
-* Ph.D. in Statistics, [Purdue University](http://www.stat.purdue.edu), 2019 - Present.
+* Ph.D. in Statistics, [Purdue University](http://www.stat.purdue.edu), 2019 - Present. Advisor: [Dr. Guang Cheng](https://www.stat.purdue.edu/~chengg/2.html)
 
 * M.S. in Statistics, [North Carolina State University](https://www.stat.ncsu.edu), 2016 - 2018.
 
