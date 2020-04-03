@@ -19,9 +19,9 @@ Email: liyuantong93 (AT) gmail (DOT) com
 
 #### Research Interests:
 
-* High-dimensional statistics, graphical model, Bayesian methods
+* Online learning
 
-* Machine learning, online learning, learning theory, Natural language processing
+* Reinforcement learning
 
 #### Education:
 
