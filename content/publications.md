@@ -6,7 +6,7 @@ draft: true
 
 **Manuscripts under review/working paper**
 
-**Y. Li**, F. Yang, H. Rao, and R. Feng. (2018). Structured Deep Learning, _Journal of Machine Learning Research_, under review.
+**Y. Li**, F. Wang, F. Yang, H. Rao, and R. Feng. (2020).Effective Peel Learning for Small Data with Structured Features, working paper.
 
 
-**Y. Li**, Q. Ma, and S. Ghosh. (2018). Determining the Number of Mixture Components of Heavy-Tailed Densities, _Journal of Computational and Graphical Statistics_, under review.
+**Y. Li**, Q. Ma, and S. Ghosh. (2020). A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components, _The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020 (SIGKDD'20, research track)_, under review.
