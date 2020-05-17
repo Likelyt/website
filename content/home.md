@@ -5,6 +5,8 @@ date: '2018-07-02'
 draft: false
 ---
 
+![Picture](/self-image/selfie.jpg)
+
 ## Yuantong Li 
 
 Ph.D. Student in [Statistics](http://www.stat.purdue.edu/academic_programs/graduate/gradPhd.php) Program

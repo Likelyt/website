@@ -1,10 +1,11 @@
-baseurl = "https://liyuantong93.com/"
+baseurl = "https://liyuantong93.com"
 publishDir = "docs"
 languageCode = "en-us"
 author = "Yuantong Li"
 canonifyurls = true
 paginate = 10
 theme = "blackburn"
+googleAnalytics = "UA-166886302-1"
 copyright = "&copy; 2018 Yuantong Li. All rights reserved."
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
@@ -33,6 +34,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     MathJaxCDN = "//cdn.bootcss.com"
     MathJaxVersion = "2.7.1"
+
 
     
     
@@ -64,7 +66,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Publications"
     pre = "<i class='fa fa-book fa-fw'></i>"
     weight = 4
-    identifier = "research"
+    identifier = "publications"
     url = "/Publications/"
     
 
