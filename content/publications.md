@@ -5,7 +5,7 @@ draft: false
 
 **Publications**
 
-**Y. Li**, Q. Ma, and S. Ghosh. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components. _The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020 (SIGKDD'20, research track)_, Accepted.
+**Y. Li**, Q. Ma, and S. Ghosh. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components. _The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020 (SIGKDD'20, research track)_, Accepted, [arXiv](https://arxiv.org/abs/2006.11383).
 
 
 **Manuscripts under review/working paper**
