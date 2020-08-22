@@ -61,8 +61,4 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 3
     identifier = "publications"
     url = "/Publications/"
-    
-
-[social]
-  linkedin = "yuantongli"
-  github = "Likelyt"
+  
