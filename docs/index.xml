@@ -273,11 +273,12 @@ Download website: Vim Download</description>
       <description>Yuantong Li Ph.D. Student in Statistics Program
 Office: HAAS 271, Department of Statistics, &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 250 University St, Purdue University, &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; West Lafayette, Indiana IN 47907
 Email: liyuantong93 (AT) gmail (DOT) com
+[Google Scholar]
 Research Interests:  Online learning
  Reinforcement learning
   Education:  Ph.D. in Statistics, Purdue University, 2019 - Present. Advisor: Dr. Guang Cheng
  M.S. in Statistics, North Carolina State University, 2016 - 2018.
- B.S. in Mathematics, Shing-Tung Yau’s Mathematics Elite Class, Chu Kochen Honor College, Zhejiang University, 2012 - 2016.</description>
+ B.</description>
     </item>
     
     <item>
@@ -296,10 +297,15 @@ Research Interests:  Online learning
       
       <guid>https://liyuantong93.com/publications/</guid>
       <description>Publications
-Y. Li, Q. Ma, and S. Ghosh. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components. The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020 (SIGKDD&amp;rsquo;20, research track), Accepted [arXiv].
-Manuscripts under review/working paper
-Y. Li, F. Wang, M. Yang, F. Yang, H. Rao, and R. Feng. Neural Network for Biomedical Data with Structured Features, working paper.
-Y. Li, C. Wang, and G. Cheng.</description>
+ A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components
+Y. Li, Q. Ma, and S. K. Ghosh
+The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020. (KDD&amp;rsquo;20)
+[paper]
+ Interactive Attention Networks for Semantic Text Matching
+S. Zhao, Y. Huang, C. Su, Y. Li and F. Wang.
+2020 IEEE International Conference on Data Mining. (ICDM&amp;rsquo;20)
+  Manuscripts under review/working paper
+Y. Li, F.</description>
     </item>
     
   </channel>
