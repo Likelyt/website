@@ -22,7 +22,6 @@ _2020 IEEE International Conference on Data Mining_. **(ICDM'20)**\
 **Y. Li**, C. Wang, and G. Cheng. Online Forgetting Process for Linear Regression Models, working paper.
 
 
-
 J. Duan, ***Y. Li**, J. Guo, and G. Cheng.
 Ranking with Tail-Attention Regression in Stock Cross-Sectional Selection, working paper.
 
