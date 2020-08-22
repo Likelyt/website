@@ -17,12 +17,11 @@ _2020 IEEE International Conference on Data Mining_. **(ICDM'20)**\
 
 **Manuscripts under review/working paper**
 
-**Y. Li**, F. Wang, M. Yang, F. Yang, H. Rao, and R. Feng. Neural Network for Biomedical Data with Structured Features, working paper.
+1. **Y. Li**, F. Wang, M. Yang, F. Yang, H. Rao, and R. Feng. Neural Network for Biomedical Data with Structured Features, working paper.
 
-**Y. Li**, C. Wang, and G. Cheng. Online Forgetting Process for Linear Regression Models, working paper.
+2. **Y. Li**, C. Wang, and G. Cheng. Online Forgetting Process for Linear Regression Models, working paper.
 
-
-J. Duan, ***Y. Li**, J. Guo, and G. Cheng.
+3. J. Duan, ***Y. Li**, J. Guo, and G. Cheng.
 Ranking with Tail-Attention Regression in Stock Cross-Sectional Selection, working paper.
 
 
