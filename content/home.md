@@ -19,7 +19,7 @@ My research interests fall in the machine learning and online learning.
 
 ### What's new
 * __Aug 2020__ 
-  * An oral presentaion of our full research paper NIQCD: [A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components](https://arxiv.org/abs/2006.11383) will start on August 26th, 7:00 AM PDT (10:00 AM EDT)! [[video]](https://vimeo.com/443853561)
+  * An oral presentaion of our full research paper NIQCD at KDD'20: [A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components](https://arxiv.org/abs/2006.11383) will start on August 26th, 7:00 AM PDT (10:00 AM EDT)! [[video]](https://vimeo.com/443853561)
 
 ### Publications
 
