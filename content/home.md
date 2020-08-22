@@ -9,11 +9,10 @@ draft: false
 
 ## Yuantong Li 
 
-Ph.D. Student in [Statistics](http://www.stat.purdue.edu/academic_programs/graduate/gradPhd.php) Program
+Second-year Ph.D. Student in [Department of Statistics](https://www.stat.purdue.edu/index.html), [Purdue University](https://www.purdue.edu)
 
-Office: HAAS 271, [Department of Statistics](http://www.stat.purdue.edu/index.php),<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-250 University St, [Purdue University](https://www.purdue.edu),<br/>
+Office: HAAS 271,
+250 University St, Purdue University,<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 West Lafayette, Indiana IN 47907
 
