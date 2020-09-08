@@ -13,7 +13,7 @@ I'm a second-year Ph.D. student in the [Department of Statistics](https://www.st
 My research interests fall in the machine learning and online learning.
 
 [[Google Scholar]](https://scholar.google.com/citations?hl=en&user=wT8kLn4AAAAJ&view_op=list_works&sortby=title&gmla=AJsN-F76O2e1DXmn54H5khUZ1Fl2HpQcHUCTxdZDV6UkaC0crFRf0QtIPZ5Dbr0Iy5y8_saLFPb3SSj-6HRJ1dyUOOKqJk_d9vHFDeMGDGh3b2pDdGcepdI&sciund=1766651423776757674)
-[[CV]](/CV/CV_Yuantong_Li.pdf)
+[[CV]](/CV/CV_Tech_One_page_Yuantong_Li.pdf)
 [[LinkedIn]](https://www.linkedin.com/in/yuantongli/)
 [[GitHub]](https://github.com/Likelyt)
 
