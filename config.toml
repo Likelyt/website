@@ -6,7 +6,7 @@ canonifyurls = true
 paginate = 10
 theme = "blackburn"
 googleAnalytics = "UA-166886302-1"
-copyright = "&copy; 2018 Yuantong Li. All rights reserved."
+copyright = "&copy; 2020 Yuantong Li. All rights reserved."
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
@@ -20,7 +20,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     
 [params]
     brand = "Yuantong Li"
-    subtitle = "A statistics and computer science blog by Yuantong"
+    subtitle = "A statistics and computer science blog"
     dateFormat = "02 Jan 2006"
     disqus = "www-liyuantong93-com"
 
@@ -34,9 +34,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     MathJaxCDN = "//cdn.bootcss.com"
     MathJaxVersion = "2.7.1"
-
-
-    
     
   
 [menu]
