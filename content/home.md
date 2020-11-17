@@ -31,7 +31,7 @@ _The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020_. **
 2. Interactive Attention Networks for Semantic Text Matching\
 S. Zhao, Y. Huang, C. Su, **Y. Li** and F. Wang.\
 _2020 IEEE International Conference on Data Mining_. **(ICDM'20)**\
-
+[[paper]](/paper/ICDM2020.pdf)
 
 ### Manuscripts under review/working paper
 
