@@ -72,7 +72,7 @@ Research Assistant, Department of Biostatistics, Epidemiology and Informatics, U
 
 
 ### Professional Services:
-Conference Reviewer: [International Conference on Artificial Intelligence and Statistics (AISTATS) 2021](http://aistats.org/)
+Conference Reviewer: [AISTATS 2021](http://aistats.org/)
 
 
 Journal Reviewer: [IEEE TNNLS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385).
