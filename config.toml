@@ -1,4 +1,4 @@
-baseurl = "https://liyuantong93.com"
+baseurl = "https://liyuantong93.com/"
 publishDir = "docs"
 languageCode = "en-us"
 author = "Yuantong Li"

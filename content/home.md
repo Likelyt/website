@@ -24,7 +24,7 @@ My research interests fall in Statistical Reinforcement Learning: multi-armed ba
 ### Publications
 
 1. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components\
-**Y. Li**, Q. Ma, and S. K. Ghosh\
+**Y. Li**, Q. Ma, and S. K. Ghosh.\
 _The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020_. **(KDD'20)**\
 [[paper]](https://arxiv.org/abs/2006.11383)
 
