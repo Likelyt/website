@@ -58,16 +58,16 @@ Ranking with Tail-Attention Regression in Stock Cross-Sectional Selection, worki
 
 ### Work Experiences:
 
-*  Feb 2019 - Aug 2019\
+*  Feb 2019 - Aug 2019 (_Full-time_)\
 Research Assistant, Department of Department of Healthcare Policy and Research, Cornell University.
 
-*  Sep 2018 - Jan 2019\
+*  Sep 2018 - Jan 2019 (_Full-time_)\
 Research Associate, Department of Computer Science and Engineering, Ohio State University.
 
-*  Jan 2018 - Sep 2018\
+*  Jan 2018 - Sep 2018 (_Intern_)\
 Research Assistant, Department of Statistics, North Carolina State University.
 
-*  May 2017 - Aug 2017\
+*  May 2017 - Aug 2017 (_Intern_)\
 Research Assistant, Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania.
 
 
