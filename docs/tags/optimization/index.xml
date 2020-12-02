@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Optimization on </title>
-    <link>https://liyuantong93.com/tags/optimization/</link>
+    <link>/tags/optimization/</link>
     <description>Recent content in Optimization on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
     <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://liyuantong93.com/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dual Problem</title>
-      <link>https://liyuantong93.com/2019/07/23/</link>
+      <link>/2019/07/23/</link>
       <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://liyuantong93.com/2019/07/23/</guid>
+      <guid>/2019/07/23/</guid>
       <description>Lagrange dual problem \[ \begin{array}{c} {\text { maximize } \psi_{D}(\boldsymbol{\lambda}, \boldsymbol{\nu})} \\ {\text { subject to } \boldsymbol{\lambda} \geq \mathbf{0}} \end{array} \]
 Weak and Strong Duality 1.Weak duality: \(d^{\star} \leq p^{\star}\)  always holds (for convex and nonconvex programs)
  can be used to find nontrivial lower bounds for difficult problems
@@ -27,19 +27,19 @@ Weak and Strong Duality 1.Weak duality: \(d^{\star} \leq p^{\star}\)  always hol
     
     <item>
       <title>Moreau-Yosida regularization</title>
-      <link>https://liyuantong93.com/2019/07/21/</link>
+      <link>/2019/07/21/</link>
       <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://liyuantong93.com/2019/07/21/</guid>
+      <guid>/2019/07/21/</guid>
       <description>UCLA ECE236C: Optimization Methods for Large-scale Systems Notes</description>
     </item>
     
     <item>
       <title>Conjugated gradient</title>
-      <link>https://liyuantong93.com/2019/07/20/</link>
+      <link>/2019/07/20/</link>
       <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://liyuantong93.com/2019/07/20/</guid>
+      <guid>/2019/07/20/</guid>
       <description>Two vectors \(u\) and \(v\) are conjugate with respect to the matrix \(A\) if \(u^{\prime} A v = 0\).
 Suppose we want to minimize the quadratic function \[ f(x)=\frac{1}{2} x^{\prime} A x-x^{\prime} b \] where \(x\) is a \(p\)-dimensional vector and \(A\) is a \(p\times p\) symmetric matrix. \(p_{0}=-f^{\prime}\left(x_{0}\right)=b-A x_{0}\), which is the negative gradient. So we can begin with the steepest descent direction \(-f^{\prime}\left(x_{1}\right)\) but then we must modify it to make it conjugate to \(p_{0}\).</description>
     </item>

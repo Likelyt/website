@@ -21,13 +21,13 @@
   <!--<![endif]-->
 
   <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://liyuantong93.com/css/side-menu-old-ie.css">
+  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
   <![endif]-->
   <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://liyuantong93.com/css/side-menu.css">
+  <link rel="stylesheet" href="/css/side-menu.css">
   <!--<![endif]-->
 
-  <link rel="stylesheet" href="https://liyuantong93.com/css/blackburn.css">
+  <link rel="stylesheet" href="/css/blackburn.css">
 
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,7 +48,7 @@
   <script>hljs.initHighlightingOnLoad();</script>
   
 
-  <link rel="shortcut icon" href="https://liyuantong93.com/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 
   
   
@@ -67,7 +67,7 @@
 <div id="menu">
 
   
-  <a class="pure-menu-heading brand" href="https://liyuantong93.com/">Yuantong Li</a>
+  <a class="pure-menu-heading brand" href="/">Yuantong Li</a>
 
 
   <div class="pure-menu">
@@ -75,13 +75,13 @@
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://liyuantong93.com/home/"><i class='fa fa-home fa-fw'></i>Home</a>
+          <a class="pure-menu-link" href="/home/"><i class='fa fa-home fa-fw'></i>Home</a>
       
         </li>
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://liyuantong93.com/publications/"><i class='fa fa-book fa-fw'></i>Publications</a>
+          <a class="pure-menu-link" href="/publications/"><i class='fa fa-book fa-fw'></i>Publications</a>
       
         </li>
       
@@ -211,9 +211,9 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/time-series">Time Series</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="/tags/time-series">Time Series</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://liyuantong93.com/tags/r">R</a>
+      <a class="post-taxonomy-tag" href="/tags/r">R</a>
     
   </div>
   
@@ -228,7 +228,7 @@
 <pre class="r"><code>library(astsa, quietly = TRUE)
 x = ts(cumsum(rnorm(500) + 0.2))
 plot(x)</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 <p><em>Autocovariance function</em>:</p>
 <p><span class="math display">\[\gamma_{X}(s,t) = E[(X_s - \mu_{X,s})(X_t - \mu_{X,t})]\]</span>
 and we know <span class="math inline">\(\gamma_{X}(s,t) = \gamma_{X}(t,s)\)</span></p>
@@ -264,17 +264,17 @@ and we know <span class="math inline">\(\gamma_{X}(s,t) = \gamma_{X}(t,s)\)</spa
 <p><span class="math display">\[\sigma_{\hat{\rho}(h)} = \frac{1}{\sqrt{n}}\]</span></p>
 <p>So we can look for autocorrelations outside <span class="math inline">\(\pm 2/\sqrt{n}\)</span> as evidence of non-zero autocorrelation.</p>
 <pre class="r"><code>acf(ts(rnorm(100)))</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <pre class="r"><code>soi = scan(&quot;http://anson.ucdavis.edu/~shumway/soi.dat&quot;)
 soi = ts(soi, start = 1950, frequency = 12)
 recruit = scan(&quot;http://anson.ucdavis.edu/~shumway/recruit.dat&quot;)
 recruit = ts(recruit, start = 1950, frequency = 12)
 acf(soi, 50)</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-2.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-2.png" width="672" /></p>
 <pre class="r"><code>acf(recruit, 50)</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-3.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-3.png" width="672" /></p>
 <pre class="r"><code>ccf(soi, recruit, 50)</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-4.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-2-4.png" width="672" /></p>
 <pre class="r"><code># Negative lags indicate SOI leads recruitment.</code></pre>
 <p>Box and Jenkins popularized an approach to time series analysis based on</p>
 <ul>
@@ -291,7 +291,7 @@ acf(soi, 50)</code></pre>
 <pre class="r"><code>w = ts(rnorm(500))
 v = filter(w, filter = c(1, -0.9), method = &quot;recursive&quot;)
 plot(v)</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <p>For non-constant means, <span class="math inline">\(EX_t = \mu_t, t \in T,\)</span> we use</p>
 <p><span class="math display">\[(X_t - \mu_t) = \phi_1(X_{t-1} - \mu_{t-1}) +\phi_2(X_{t-2} - \mu_{t-2}) + ... +\phi_p(X_{t-p} - \mu_{t-p}) + W_{t} \]</span></p>
 <ol style="list-style-type: decimal">
@@ -309,23 +309,23 @@ plot(v)</code></pre>
 <p>1.1 Example: 20th Century Global Temperature</p>
 <pre class="r"><code>g1900 = window(globtemp, start = 1900)
 plot(g1900)</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 <p>Try fitted linear regression model:</p>
 <pre class="r"><code>lmg1900 = lm(g1900~time(g1900))
 plot(ts(residuals(lmg1900), start = 1900));</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 <p>1.2 Differencing</p>
 <p>Still appear nonstationary after detrending, A possible approach is to consider differencing the residuals.</p>
 <p>Sepcifically, if <span class="math inline">\(Y_t = \sum_{j = 1}^{t}W_t\)</span> for a white noise process <span class="math inline">\(\{W_t\}\)</span>, then, differencing yields:</p>
 <p><span class="math inline">\(\nabla Y_t = Y_t - Y_{t-1} = W_t\)</span></p>
 <p>which is stationary (and is a white noise process). Note that <span class="math inline">\(\nabla Y_t = (1-B)Y_t\)</span>, where <span class="math inline">\(B\)</span> is the backshift operator, defined by <span class="math inline">\(BY_t = Y_{t-1}\)</span>.</p>
 <pre class="r"><code>plot(diff(g1900))</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
 <pre class="r"><code>#ACFs
 acf(residuals(lmg1900), 50)</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-6-2.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-6-2.png" width="672" /></p>
 <pre class="r"><code>acf(diff(g1900), 50)</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-6-3.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-6-3.png" width="672" /></p>
 <p>1.3 Transformation</p>
 <p>Common transformations include the logarithm, power transformation, etc.</p>
 <ol start="2" style="list-style-type: decimal">
@@ -336,14 +336,14 @@ acf(residuals(lmg1900), 50)</code></pre>
 <p><span class="math inline">\(\phi(B)X_t = W_t\)</span></p>
 <p>2.1 Simulation</p>
 <pre class="r"><code>plot(arima.sim(model = list(ar = .2), 100))</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
 <pre class="r"><code>plot(arima.sim(model = list(ar = .9), 100))</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-7-2.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-7-2.png" width="672" /></p>
 <pre class="r"><code>plot(arima.sim(model = list(ar = -.9), 100))</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-7-3.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-7-3.png" width="672" /></p>
 <p>2.2 Generating AR(p)-process samples</p>
 <pre class="r"><code>plot(arima.sim(n=200, list(c(3,0,0), ar=c(-0.2, -0.1, -0.8))))</code></pre>
-<p><img src="https://liyuantong93.com/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p><img src="/post/2018-07-31-time-series_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
 </div>
 <div id="moving-average-model-ma" class="section level1">
 <h1>3. Moving Average model (MA)</h1>
@@ -384,13 +384,13 @@ In the operator form: <span class="math inline">\(\phi(B)X_t = \theta(B)W_t\)</s
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://liyuantong93.com/2018/07/31/"><i class="fa fa-chevron-left"></i></a>
+    <a href="/2018/07/31/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://liyuantong93.com/2018/07/31/">Monte Carlo In Financial Derivatives</a>
+      <a href="/2018/07/31/">Monte Carlo In Financial Derivatives</a>
     </nav>
     
   </div>
@@ -400,13 +400,13 @@ In the operator form: <span class="math inline">\(\phi(B)X_t = \theta(B)W_t\)</s
   <div class="pure-u-10-24">
     
     <nav class="next">
-      <a href="https://liyuantong93.com/2018/08/06/">Create Multiple Directories and Files With Contents</a>
+      <a href="/2018/08/06/">Create Multiple Directories and Files With Contents</a>
     </nav>
     
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
     
-    <a href="https://liyuantong93.com/2018/08/06/"><i class="fa fa-chevron-right"></i></a>
+    <a href="/2018/08/06/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
@@ -439,7 +439,7 @@ In the operator form: <span class="math inline">\(\phi(B)X_t = \theta(B)W_t\)</s
 
 </div>
 </div>
-<script src="https://liyuantong93.com/js/ui.js"></script>
+<script src="/js/ui.js"></script>
 
 
 
