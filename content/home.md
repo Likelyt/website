@@ -25,8 +25,8 @@ My research interests fall in Statistical Reinforcement Learning: multi-armed ba
 
 5. Online Forgetting Process for Linear Regression Models\
 _**Y. Li**, C. Wang, and G. Cheng._\
-_arXiv preprint_.\
-[[paper]](/paper/FIFD.pdf)
+_arXiv preprint arXiv:2012.01668_.\
+[[paper]](https://arxiv.org/pdf/2012.01668.pdf)
 
 4. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components\
 _**Y. Li**, Q. Ma, and S. K. Ghosh._\
