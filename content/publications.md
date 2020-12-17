@@ -8,7 +8,7 @@ draft: false
 5. Online Forgetting Process for Linear Regression Models\
 _**Y. Li**, C. Wang, and G. Cheng._\
 _arXiv preprint arXiv:2012.01668_.\
-[[paper]](https://arxiv.org/pdf/2012.01668.pdf)
+[[paper]](https://arxiv.org/abs/2012.01668)
 
 4. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components\
 _**Y. Li**, Q. Ma, and S. K. Ghosh._\
