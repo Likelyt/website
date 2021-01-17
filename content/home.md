@@ -19,6 +19,8 @@ My research interests fall in Statistical Reinforcement Learning: multi-armed ba
 
 ### What's new
 * __Aug 2020__ 
+  * A regular paper "Interactive Attention Networks for Semantic Text Matching" got accepted to ICDM 2020!
+  
   * An oral presentaion of our full research paper NIQCD at KDD'20: [A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components](https://arxiv.org/abs/2006.11383) will start on August 27th, 10:00 AM PDT (1:00 PM EDT)! [[video]](https://vimeo.com/443853561)
 
 ### Publications
