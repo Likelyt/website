@@ -44,7 +44,6 @@ _2020 IEEE International Conference on Data Mining_. **(ICDM'20)**\
 
 2. Neural Network for Biomedical Data with Structured Features\
 _**Y. Li**, F. Wang, M. Yang, F. Yang, H. Rao, and R. Feng._\
-[[paper]](/paper/PeelLearning.pdf)
 
 1. Ranking with Tail-Attention Regression in Stock Cross-Sectional Selection\
 _J. Duan, **Y. Li**, J. Guo, and G. Cheng._
