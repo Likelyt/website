@@ -7,7 +7,7 @@ draft: false
 
 ![Picture](/self-image/selfie.jpg)
 
-# Yuantong Li (李沅桐)
+# Yuantong Li
 I'm a second-year Ph.D. student in the [Department of Statistics](https://www.stat.purdue.edu/index.html), [Purdue University](https://www.purdue.edu). My advisor is Prof. [Guang Cheng](https://www.stat.purdue.edu/~chengg/2.html). During my master period, I was a visiting scholar at Cornell University (with Prof. [Fei Wang](https://sites.google.com/site/cornellwanglab/home)), OSU (with Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/)), and UPenn (with Prof. [Rui Feng](https://www.dbei.med.upenn.edu/bio/rui-feng-phd)).
 
 My research interests fall in Statistical Reinforcement Learning: multi-armed bandit and online Learning.
