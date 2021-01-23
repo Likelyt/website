@@ -18,6 +18,10 @@ My research interests fall in Statistical Reinforcement Learning: multi-armed ba
 [[GitHub]](https://github.com/Likelyt)
 
 ### What's new
+* __Jan 2021__
+
+  * "Online Forgetting Process for Linear Regression Models" got accepted to AISTATS 2021!
+  
 * __Aug 2020__ 
   * A regular paper "Interactive Attention Networks for Semantic Text Matching" got accepted to ICDM 2020!
   
@@ -27,7 +31,7 @@ My research interests fall in Statistical Reinforcement Learning: multi-armed ba
 
 5. Online Forgetting Process for Linear Regression Models\
 _**Y. Li**, C. Wang, and G. Cheng._\
-_arXiv preprint arXiv:2012.01668_.\
+_In Proc of the 24nd International Conference on Artificial Intelligence and Statistics (AISTATS), San Diego, California, 2021_.\
 [[paper]](https://arxiv.org/abs/2012.01668)
 
 4. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components\
