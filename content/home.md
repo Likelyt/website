@@ -17,6 +17,11 @@ My research interests fall in the applications and theory of machine learning, s
 [[GitHub]](https://github.com/Likelyt)
 
 ### What's new
+* __May 2021__
+  * "Peel Learning for Pathway-Related Outcome Prediction" got accepted to Bioinformatics 2021!
+  
+  * I'm excited to join Amazon AWS AI as an applied scientist intern this summer!
+
 * __Jan 2021__
 
   * "Online Forgetting Process for Linear Regression Models" got accepted to AISTATS 2021!
@@ -32,7 +37,7 @@ _J. Duan, **Y. Li**, J. Guo, and G. Cheng._
 
 4. Peel Learning for Pathway-Related Outcome Prediction\
 _**Y. Li**, F. Wang, M. Yang, F. Yang, E. Cantu, H. Rao, and R. Feng._\
-_Bioinformatics_\
+_Bioinformatics, 2021, In print._
 
 3. Online Forgetting Process for Linear Regression Models\
 _**Y. Li**, C. Wang, and G. Cheng._\
