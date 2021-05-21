@@ -32,10 +32,10 @@ My research interests fall in the applications and theory of machine learning, s
   * An oral presentaion of our full research paper NIQCD at KDD'20: [A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components](https://arxiv.org/abs/2006.11383) will start on August 27th, 10:00 AM PDT (1:00 PM EDT)! [[video]](https://vimeo.com/443853561)
 
 ### Publications
-5. Ranking with Tail-Attention Regression in Stock Cross-Sectional Selection\
+1. Ranking with Tail-Attention Regression in Stock Cross-Sectional Selection\
 _J. Duan, **Y. Li**, J. Guo, and G. Cheng._
 
-4. Peel Learning for Pathway-Related Outcome Prediction\
+2. Peel Learning for Pathway-Related Outcome Prediction\
 _**Y. Li**, F. Wang, M. Yang, F. Yang, E. Cantu, H. Rao, and R. Feng._\
 _Bioinformatics, 2021, In print._
 
@@ -44,12 +44,12 @@ _**Y. Li**, C. Wang, and G. Cheng._\
 _In Proc of the 24nd International Conference on Artificial Intelligence and Statistics (AISTATS), San Diego, California, 2021_.**(AISTATS'21)**\
 [[paper]](https://arxiv.org/abs/2012.01668)
 
-2. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components\
+4. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components\
 _**Y. Li**, Q. Ma, and S. K. Ghosh._\
 _The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020_. **(KDD'20)**\
 [[paper]](https://arxiv.org/abs/2006.11383)
 
-1. Interactive Attention Networks for Semantic Text Matching\
+5. Interactive Attention Networks for Semantic Text Matching\
 _S. Zhao, Y. Huang, C. Su, **Y. Li** and F. Wang._\
 _2020 IEEE International Conference on Data Mining_. **(ICDM'20)**\
 [[paper]](https://ieeexplore.ieee.org/document/9338264)
