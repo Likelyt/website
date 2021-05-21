@@ -67,6 +67,8 @@ _2020 IEEE International Conference on Data Mining_. **(ICDM'20)**\
 
 
 ### Work Experiences:
+*  May 2021 - Aug 2021 (_Intern_)\
+Applied Scientist Intern, Amazon Web Service (AWS) AI.
 
 *  Feb 2019 - Aug 2019 (_Full-time_)\
 Research Assistant, Department of Department of Healthcare Policy and Research, Cornell University.
@@ -79,6 +81,8 @@ Research Assistant, Department of Statistics, North Carolina State University.
 
 *  May 2017 - Aug 2017 (_Intern_)\
 Research Assistant, Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania.
+
+
 
 
 ### Professional Services:
