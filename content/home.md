@@ -37,7 +37,7 @@ _J. Duan, **Y. Li**, J. Guo, and G. Cheng._
 
 2. Peel Learning for Pathway-Related Outcome Prediction\
 _**Y. Li**, F. Wang, M. Yang, F. Yang, E. Cantu, H. Rao, and R. Feng._\
-_Bioinformatics, 2021, In print._
+_**Bioinformatics**, 2021, in print._
 
 3. Online Forgetting Process for Linear Regression Models\
 _**Y. Li**, C. Wang, and G. Cheng._\
