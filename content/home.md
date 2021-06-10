@@ -37,12 +37,13 @@ _J. Duan, **Y. Li**, J. Guo, and G. Cheng._
 
 2. Peel Learning for Pathway-Related Outcome Prediction\
 _**Y. Li**, F. Wang, M. Yang, F. Yang, E. Cantu, H. Rao, and R. Feng._\
-_**Bioinformatics**, 2021, in print._
+_**Bioinformatics**, 2021_.\
+[[paper]](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab402/6286960?redirectedFrom=fulltext)
 
 3. Online Forgetting Process for Linear Regression Models\
 _**Y. Li**, C. Wang, and G. Cheng._\
 _In Proc of the 24nd International Conference on Artificial Intelligence and Statistics (AISTATS), San Diego, California, 2021_.**(AISTATS'21)**\
-[[paper]](https://arxiv.org/abs/2012.01668)
+[[paper]](http://proceedings.mlr.press/v130/li21a/li21a.pdf)
 
 4. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components\
 _**Y. Li**, Q. Ma, and S. K. Ghosh._\
