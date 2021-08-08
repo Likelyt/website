@@ -32,10 +32,13 @@ My research interests fall in the applications and theory of machine learning, s
   * An oral presentaion of our full research paper NIQCD at KDD'20: [A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components](https://arxiv.org/abs/2006.11383) will start on August 27th, 10:00 AM PDT (1:00 PM EDT)! [[video]](https://vimeo.com/443853561)
 
 ### Publications
-1. Ranking with Tail-Attention Regression in Stock Cross-Sectional Selection\
+6. Online Bootstrap Inference For Policy Evaluation in Reinforcement Learning\
+_P. Ramprasad, **Y. Li**, Z. Yang, Z. Wang, W. Sun., and G. Cheng._\
+
+5. Ranking with Tail-Attention Regression in Stock Cross-Sectional Selection\
 _J. Duan, **Y. Li**, J. Guo, and G. Cheng._
 
-2. Peel Learning for Pathway-Related Outcome Prediction\
+4. Peel Learning for Pathway-Related Outcome Prediction\
 _**Y. Li**, F. Wang, M. Yang, F. Yang, E. Cantu, H. Rao, and R. Feng._\
 _**Bioinformatics**, 2021_.\
 [[paper]](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab402/6286960?redirectedFrom=fulltext)
@@ -45,12 +48,12 @@ _**Y. Li**, C. Wang, and G. Cheng._\
 _In Proc of the 24nd International Conference on Artificial Intelligence and Statistics (AISTATS), San Diego, California, 2021_.**(AISTATS'21)**\
 [[paper]](http://proceedings.mlr.press/v130/li21a/li21a.pdf)
 
-4. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components\
+2. A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components\
 _**Y. Li**, Q. Ma, and S. K. Ghosh._\
 _The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020_. **(KDD'20)**\
 [[paper]](https://arxiv.org/abs/2006.11383)
 
-5. Interactive Attention Networks for Semantic Text Matching\
+1. Interactive Attention Networks for Semantic Text Matching\
 _S. Zhao, Y. Huang, C. Su, **Y. Li** and F. Wang._\
 _2020 IEEE International Conference on Data Mining_. **(ICDM'20)**\
 [[paper]](https://ieeexplore.ieee.org/document/9338264)
