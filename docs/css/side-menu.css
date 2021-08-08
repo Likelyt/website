@@ -3,7 +3,7 @@ body {
 }
 
 .pure-img-responsive {
-    max-width: 10%;
+    max-width: 100%;
     height: auto;
 }
 
