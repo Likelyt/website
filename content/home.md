@@ -34,6 +34,7 @@ My research interests fall in the applications and theory of machine learning, s
 ### Publications
 6. Online Bootstrap Inference For Policy Evaluation in Reinforcement Learning\
 _P. Ramprasad, **Y. Li**, Z. Yang, Z. Wang, W. Sun., and G. Cheng._\
+[[paper]](https://arxiv.org/abs/2108.03706)
 
 5. Ranking with Tail-Attention Regression in Stock Cross-Sectional Selection\
 _J. Duan, **Y. Li**, J. Guo, and G. Cheng._
