@@ -10,7 +10,7 @@ draft: false
 # Yuantong Li
 I'm a third-year Ph.D. student in the [Department of Statistics](https://www.stat.purdue.edu/index.html), [Purdue University](https://www.purdue.edu). My advisor is Prof. [Guang Cheng](https://www.stat.purdue.edu/~chengg/2.html) and Prof. [Wei Sun](https://web.ics.purdue.edu/~sun244/). During my master period, I was a visiting scholar at Cornell University (with Prof. [Fei Wang](https://sites.google.com/site/cornellwanglab/home)), OSU (with Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/)), and UPenn (with Prof. [Rui Feng](https://www.dbei.med.upenn.edu/bio/rui-feng-phd)).
 
-My research interests fall in the applications and theory of machine learning, statistical reinforcement learning, and bandit problems.
+My research interests fall in trustworthy AI combined with sequential decision making, and designing and optimizing multi-agent systems. Besides, I have interests and experience in natural language process field.
 
 [[Google Scholar]](https://scholar.google.com/citations?hl=en&user=wT8kLn4AAAAJ&view_op=list_works&sortby=title&gmla=AJsN-F76O2e1DXmn54H5khUZ1Fl2HpQcHUCTxdZDV6UkaC0crFRf0QtIPZ5Dbr0Iy5y8_saLFPb3SSj-6HRJ1dyUOOKqJk_d9vHFDeMGDGh3b2pDdGcepdI&sciund=1766651423776757674)
 [[LinkedIn]](https://www.linkedin.com/in/yuantongli/)
