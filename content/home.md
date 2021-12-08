@@ -8,7 +8,7 @@ draft: false
 ![Picture](/self-image/selfie.jpg)
 
 # Yuantong Li
-I'm a third-year Ph.D. student in the [Department of Statistics](https://www.stat.purdue.edu/index.html), [Purdue University](https://www.purdue.edu). My advisor is Prof. [Guang Cheng](https://www.stat.purdue.edu/~chengg/2.html) and Prof. [Wei Sun](https://web.ics.purdue.edu/~sun244/). 
+I'm a third-year Ph.D. student in the [Department of Statistics](http://statistics.ucla.edu), [UCLA](https://www.ucla.edu). My advisor is Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/) and Prof. [Wei Sun](https://web.ics.purdue.edu/~sun244/). 
 My research interests fall in trustworthy AI combined with sequential decision making, and designing and optimizing multi-agent systems. Besides, I have interests and experience in natural language process field.
 <!--During my master period, I was a visiting scholar at Cornell University (with Prof. [Fei Wang](https://sites.google.com/site/cornellwanglab/home)), OSU (with Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/)), and UPenn (with Prof. [Rui Feng](https://www.dbei.med.upenn.edu/bio/rui-feng-phd)).-->
 
@@ -71,8 +71,9 @@ _2020 IEEE International Conference on Data Mining_. **(ICDM'20)**\
 
 
 ### Education:
+* Ph.D. in Statistics, UCLA, 2022 - Present.
 
-* Ph.D. in Statistics, Purdue University, 2019 - Present.
+* Ph.D. in Statistics, Purdue University, 2019 - 2021.
 
 * M.S. in Statistics, North Carolina State University, 2016 - 2018.
 
@@ -82,20 +83,6 @@ _2020 IEEE International Conference on Data Mining_. **(ICDM'20)**\
 ### Work Experiences:
 *  May 2021 - Aug 2021 (_Intern_)\
 Applied Scientist Intern, Amazon Web Service (AWS) AI.
-
-*  Feb 2019 - Aug 2019 (_Full-time_)\
-Research Assistant, Department of Department of Healthcare Policy and Research, Cornell University.
-
-*  Sep 2018 - Jan 2019 (_Full-time_)\
-Research Associate, Department of Computer Science and Engineering, Ohio State University.
-
-*  Jan 2018 - Sep 2018 (_Intern_)\
-Research Assistant, Department of Statistics, North Carolina State University.
-
-*  May 2017 - Aug 2017 (_Intern_)\
-Research Assistant, Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania.
-
-
 
 
 ### Professional Services:
