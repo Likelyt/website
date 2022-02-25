@@ -36,6 +36,7 @@ My research interests fall in trustworthy AI combined with sequential decision m
 ### Publications
 8. Residual Bootstrap Exploration for Stochastic Linear Bandit\
 _S. Wu, C. Wang, **Y. Li**, G. Cheng._\
+[[paper]](https://arxiv.org/pdf/2202.11474)
 
 7. Debiasing Neural Retrieval via In-batch Balancing Regularization\
 _**Y. Li**, X. Wei, Z. Wang, S. Wang, G. Cheng, A. Arnold._\
