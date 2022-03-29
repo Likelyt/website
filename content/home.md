@@ -19,10 +19,17 @@ My research interests fall in trustworthy AI combined with sequential decision m
 [[GitHub]](https://github.com/Likelyt)
 
 ### What's new
+
+* __March 2022__
+  * I'm excited to get back Amazon AWS AI Lab as an applied scientist intern in the coming summer!
+
+* __Jan 2022__
+  * Transfer to Deparment of Statistics at UCLA to continue my Ph.D. study!
+
 * __May 2021__
   * "Peel Learning for Pathway-Related Outcome Prediction" got accepted to Bioinformatics 2021!
   
-  * I'm excited to join Amazon AWS AI as an applied scientist intern this summer!
+  * I'm excited to join Amazon AWS AI Lab as an applied scientist intern this summer!
 
 * __Jan 2021__
 
@@ -34,6 +41,9 @@ My research interests fall in trustworthy AI combined with sequential decision m
   * An oral presentaion of our full research paper NIQCD at KDD'20: [A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components](https://arxiv.org/abs/2006.11383) will start on August 27th, 10:00 AM PDT (1:00 PM EDT)! [[video]](https://vimeo.com/443853561)
 
 ### Publications
+9. Rate Optimal Contextual Online Matching Bandit\
+_**Y.Li**, C. Wang, G. Cheng, W. Sun._\
+
 8. Residual Bootstrap Exploration for Stochastic Linear Bandit\
 _S. Wu, C. Wang, **Y. Li**, G. Cheng._\
 [[paper]](https://arxiv.org/pdf/2202.11474)
@@ -82,6 +92,9 @@ _2020 IEEE International Conference on Data Mining_. **(ICDM'20)**\
 
 
 ### Work Experiences:
+*  June 2022 - Sep 2022 (_Intern_)\
+Applied Scientist Intern, Amazon Web Service (AWS) AI.
+
 *  May 2021 - Aug 2021 (_Intern_)\
 Applied Scientist Intern, Amazon Web Service (AWS) AI.
 
