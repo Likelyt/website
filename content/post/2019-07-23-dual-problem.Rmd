@@ -1,0 +1,44 @@
+---
+title: Dual Problem
+author: Yuantong
+date: '2019-07-23'
+slug: dual-problem
+categories:
+  - Optimization
+  - Convex Optimization
+tags:
+  - Optimization
+  - Convex Optimization
+description: ''
+topics: []
+---
+
+# Lagrange dual problem
+
+$$
+\begin{array}{c}
+{\text { maximize } \psi_{D}(\boldsymbol{\lambda}, \boldsymbol{\nu})} \\ 
+{\text { subject to } \boldsymbol{\lambda} \geq \mathbf{0}}
+\end{array}
+$$
+
+## Weak and Strong Duality
+
+### 1.Weak duality: $d^{\star} \leq p^{\star}$ 
+
+
++  always holds (for convex and nonconvex programs)
+
++  can be used to find nontrivial lower bounds for difficult problems
+
+
+### 2.Strong duality: $d^{\star} = p^{\star}$
+
++ does not hold in general
+
++ (usually) holds for convex problems
+
++ conditions that guarantee strong duality in convex problems are
+called _constraint qualifications_
+
+

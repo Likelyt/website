@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algorithms on </title>
-    <link>/tags/algorithms/</link>
+    <link>https://liyuantong93.com/tags/algorithms/</link>
     <description>Recent content in Algorithms on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
     <lastBuildDate>Sun, 14 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liyuantong93.com/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Factor Analysis and PCA</title>
-      <link>/2019/07/14/</link>
+      <link>https://liyuantong93.com/2019/07/14/</link>
       <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/07/14/</guid>
+      <guid>https://liyuantong93.com/2019/07/14/</guid>
       <description>The Factor Analysis note from CMU.
 The PCA</description>
     </item>
     
     <item>
       <title>EM Algorithms</title>
-      <link>/2018/08/20/</link>
+      <link>https://liyuantong93.com/2018/08/20/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/08/20/</guid>
+      <guid>https://liyuantong93.com/2018/08/20/</guid>
       <description>Original Paper: EM algorithm
 Lecture Notes 1, 2, 3
 Wikipedia gives a really great explanantion 3

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning on </title>
-    <link>/tags/machine-learning/</link>
+    <link>https://liyuantong93.com/tags/machine-learning/</link>
     <description>Recent content in Machine Learning on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
     <lastBuildDate>Sun, 14 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liyuantong93.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Factor Analysis and PCA</title>
-      <link>/2019/07/14/</link>
+      <link>https://liyuantong93.com/2019/07/14/</link>
       <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/07/14/</guid>
+      <guid>https://liyuantong93.com/2019/07/14/</guid>
       <description>The Factor Analysis note from CMU.
 The PCA</description>
     </item>
     
     <item>
       <title>Statistical Learning</title>
-      <link>/2019/07/12/</link>
+      <link>https://liyuantong93.com/2019/07/12/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/07/12/</guid>
+      <guid>https://liyuantong93.com/2019/07/12/</guid>
       <description>Details can be viewed in my Github Page</description>
     </item>
     

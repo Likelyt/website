@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regularization on </title>
-    <link>/tags/regularization/</link>
+    <link>https://liyuantong93.com/tags/regularization/</link>
     <description>Recent content in Regularization on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
     <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/regularization/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liyuantong93.com/tags/regularization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adaptive lasso, MCP, and SCAD</title>
-      <link>/2019/07/22/</link>
+      <link>https://liyuantong93.com/2019/07/22/</link>
       <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/07/22/</guid>
+      <guid>https://liyuantong93.com/2019/07/22/</guid>
       <description>Univeristy of Iowa Notes</description>
     </item>
     
     <item>
       <title>Moreau-Yosida regularization</title>
-      <link>/2019/07/21/</link>
+      <link>https://liyuantong93.com/2019/07/21/</link>
       <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/07/21/</guid>
+      <guid>https://liyuantong93.com/2019/07/21/</guid>
       <description>UCLA ECE236C: Optimization Methods for Large-scale Systems Notes</description>
     </item>
     

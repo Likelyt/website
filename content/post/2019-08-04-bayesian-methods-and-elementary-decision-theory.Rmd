@@ -1,0 +1,20 @@
+---
+title: Bayesian Methods and Elementary Decision Theory
+author: Yuantong
+date: '2019-08-04'
+slug: bayesian-methods-and-elementary-decision-theory
+categories:
+  - Bayesian
+  - Decision Theory
+tags:
+  - Bayesian
+  - Decision Theory
+description: ''
+topics: []
+---
+
+Washington Stat [notes](https://www.stat.washington.edu/jaw/COURSES/580s/581/LECTNOTES/ch5.pdf)
+
+
+
+

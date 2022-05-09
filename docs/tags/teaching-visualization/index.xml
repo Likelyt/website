@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching Visualization on </title>
+    <link>/tags/teaching-visualization/</link>
+    <description>Recent content in Teaching Visualization on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 08 May 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/teaching-visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dual Coding Theory!</title>
+      <link>/2022/05/08/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/05/08/</guid>
+      <description>Q01. 底層哲學? graph LR A(組織器 Organizer) A--&amp;gt;A1(狀態 Stasis) A--&amp;gt;A2(改變 Change) A1--&amp;gt;A11(塊狀 Chunk) A1--&amp;gt;A12(比較 Comparison) A2--&amp;gt;A21(序貫 Sequence) A2--&amp;gt;A22(因果 Cause-Effect) A11--&amp;gt;A111(樹狀圖 Tree diagram) A11--&amp;gt;A112(心智圖 Mind Map) A11--&amp;gt;A113(概念圖 Concept Map)  Q02. Tree diagram與Mind map的差異? 我怎麼想: Tree diagram感覺有秩序, Mind map感覺較無秩序. 書怎麼講: 兩者相同, 只是一個畫得像是發散, 一個像是有上下
+Q03. Hierarchy與Association的差異?  Hierarchy 有閱讀順序, 可以看到上與下, 容易操作 Association 則是無明顯閱讀順序  Q04. 那麼發散與上下, 視覺效果如何?  發散: 感覺還可以增加. 上下: 感覺就這麼多了.  Q05. 二維座標圖可以怎麼做?  選兩個維度, 然後比較相對的work.  第一部分 - 樣本數可以是隨機 - Training 或者 Monitoring?</description>
+    </item>
+    
+  </channel>
+</rss>

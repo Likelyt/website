@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on </title>
-    <link>/tags/r/</link>
+    <link>https://liyuantong93.com/tags/r/</link>
     <description>Recent content in R on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
     <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liyuantong93.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Linear Time Series</title>
-      <link>/2018/08/01/</link>
+      <link>https://liyuantong93.com/2018/08/01/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/08/01/</guid>
+      <guid>https://liyuantong93.com/2018/08/01/</guid>
       <description>1. Introduction to Time Series Random Walk with drift:
 \[X_t = \delta + X_{t-1} + W_{t}\]
 library(astsa, quietly = TRUE) x = ts(cumsum(rnorm(500) + 0.2)) plot(x) Autocovariance function:

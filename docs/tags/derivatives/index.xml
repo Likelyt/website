@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Derivatives on </title>
-    <link>/tags/derivatives/</link>
+    <link>https://liyuantong93.com/tags/derivatives/</link>
     <description>Recent content in Derivatives on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
     <lastBuildDate>Sun, 29 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/derivatives/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liyuantong93.com/tags/derivatives/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Options</title>
-      <link>/2018/07/29/</link>
+      <link>https://liyuantong93.com/2018/07/29/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/07/29/</guid>
+      <guid>https://liyuantong93.com/2018/07/29/</guid>
       <description>3. Options 3.1 Option Basic Two Types of Options: Call (right buy) and Put (right sell).
 American Options can exercise at any time up to and including expiration.
 A. Moneyness A call option is in-the-money if the asset price is greater than the exercise price (i.e., if it would be worth something exercised).
@@ -26,10 +26,10 @@ A. Moneyness A call option is in-the-money if the asset price is greater than th
     
     <item>
       <title>Derivatives</title>
-      <link>/2018/07/23/</link>
+      <link>https://liyuantong93.com/2018/07/23/</link>
       <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/07/23/</guid>
+      <guid>https://liyuantong93.com/2018/07/23/</guid>
       <description>1. Forward  2. Future  4. VaR Model  5. Additional 5.1 Risk-Adjusted Return 5.1.1 Sharpe ratio \[\text{sharpe ratio} = \frac{\text{excess returns}}{\text{volatility}} = \frac{\mu - r}{\sigma}\]
  5.1.2 Treynor Ratio \[\frac{\mu - r}{\beta}\]
  5.1.3 Information Ratio  5.1.4 Jensen Alpha  5.1.5 M^2    6. Hedge Fund Strategy LP, GP: management fee and incentive fee, usually 2&amp;amp;20 (hurdle rate).

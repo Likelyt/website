@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computing on </title>
-    <link>/tags/computing/</link>
+    <link>https://liyuantong93.com/tags/computing/</link>
     <description>Recent content in Computing on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
     <lastBuildDate>Mon, 12 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/computing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liyuantong93.com/tags/computing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to use multiple GPUs on Pytorch</title>
-      <link>/2019/08/12/</link>
+      <link>https://liyuantong93.com/2019/08/12/</link>
       <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/08/12/</guid>
+      <guid>https://liyuantong93.com/2019/08/12/</guid>
       <description>An official note on how to use multiple GPUs on Pytorch.
 Another avaiable on horovod</description>
     </item>
     
     <item>
       <title>Sampling Methods and Monte Carlo methods</title>
-      <link>/2018/08/22/</link>
+      <link>https://liyuantong93.com/2018/08/22/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/08/22/</guid>
+      <guid>https://liyuantong93.com/2018/08/22/</guid>
       <description>Suppose we have a function \(f(x)\) and we’d like to compute \(E{f(X )} =\int f(x)p(x)dx\), where \(g(x)\) is a density.
 There is no guarantee that the techniques we learn in calculus are sufficient to evaluate this integral analytically.
 Thankfully, the law of large numbers (LLN) is here to help:

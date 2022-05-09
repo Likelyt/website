@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning on </title>
-    <link>/tags/deep-learning/</link>
+    <link>https://liyuantong93.com/tags/deep-learning/</link>
     <description>Recent content in Deep Learning on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
     <lastBuildDate>Wed, 17 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liyuantong93.com/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Stochastic Variational Inference</title>
-      <link>/2019/07/17/</link>
+      <link>https://liyuantong93.com/2019/07/17/</link>
       <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/07/17/</guid>
+      <guid>https://liyuantong93.com/2019/07/17/</guid>
       <description>Some slides Nips 2016, CMU Lecture 12, CMU Lecture 13</description>
     </item>
     
     <item>
       <title>Graph Convolutional Networks</title>
-      <link>/2019/07/12/</link>
+      <link>https://liyuantong93.com/2019/07/12/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/07/12/</guid>
+      <guid>https://liyuantong93.com/2019/07/12/</guid>
       <description>Two types of GCN:
 Defferrard, M., Bresson, X., &amp;amp; Vandergheynst, P. (2016). Paper
  Kipf, T. N., &amp;amp; Welling, M. (2016). Paper

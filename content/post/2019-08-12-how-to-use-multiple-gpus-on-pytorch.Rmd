@@ -1,0 +1,21 @@
+---
+title: How to use multiple GPUs on Pytorch
+author: Yuantong
+date: '2019-08-12'
+slug: how-to-use-multiple-gpus-on-pytorch
+categories:
+  - Computing
+  - Python
+tags:
+  - Computing
+  - Python
+description: ''
+topics: []
+---
+
+An official [note](https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html) on how to use multiple GPUs on Pytorch.
+
+
+Another avaiable on [horovod](https://github.com/horovod/horovod)
+
+

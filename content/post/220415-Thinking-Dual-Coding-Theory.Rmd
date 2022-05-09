@@ -1,0 +1,97 @@
+---
+title: Dual Coding Theory
+author: Chi-hua Wang
+date: 2022-04-15
+categories:
+  - R
+tags:
+  - Teaching
+  - visualization
+slug: chi-hua-first-post
+---
+
+
+## Q01.  底層哲學?
+
+
+
+```{r,echo=FALSE}
+library(DiagrammeR)
+mermaid("
+  graph LR
+	A(組織器 Organizer)
+	A-->A1(狀態 Stasis)
+	A-->A2(改變 Change) 
+	A1-->A11(塊狀 Chunk)
+	A1-->A12(比較 Comparison)
+	A2-->A21(序貫 Sequence)
+	A2-->A22(因果 Cause-Effect)
+	A11-->A111(樹狀圖 Tree diagram)
+	A11-->A112(心智圖 Mind Map)
+	A11-->A113(概念圖 Concept Map)
+	")
+```
+
+
+
+## Q02. Tree diagram與Mind map的差異?
+
+我怎麼想: Tree diagram感覺有秩序, Mind map感覺較無秩序.
+書怎麼講: 兩者相同, 只是一個畫得像是發散, 一個像是有上下
+
+
+## Q03.  Hierarchy與Association的差異?
+
+- Hierarchy 有閱讀順序, 可以看到上與下, 容易操作
+- Association 則是無明顯閱讀順序
+
+
+## Q04. 那麼發散與上下, 視覺效果如何?
+- 發散: 感覺還可以增加. 
+- 上下: 感覺就這麼多了.
+
+## Q05. 二維座標圖可以怎麼做?
+
+- 選兩個維度, 然後比較相對的work.
+
+第一部分
+- 樣本數可以是隨機
+- Training 或者 Monitoring?
+
+第二部分
+- 獎勵模型可以不參數化, 也能造optimism.
+- Optimism 需不需要 機率模型
+  ---> Model-centric或者Data-centric. 
+
+第三部分
+- 
+- Update frequency VS Accuracy
+
+
+
+## Q06. 我能怎麼使用流程圖?
+
+1. Dynamic Pricing 閉環
+2. Matrix Completion閉環
+3. ReBoot閉環
+4. LinReBoot閉環
+5. TeamworkLasso閉環
+6. FedegoLasso閉環
+
+這些閉環完成後, 
+還可以加強細節, 拿到二階資訊.
+
+## Q07.   如何用IPO圖?
+
+- 算法產品?
+
+## Q08.
+
+## Q09.
+
+## Q10.
+
+
+
+
+

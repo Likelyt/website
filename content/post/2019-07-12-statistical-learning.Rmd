@@ -1,0 +1,17 @@
+---
+title: Statistical Learning
+author: Yuantong
+date: '2019-07-12'
+slug: statistical-learning
+categories:
+  - Statistics
+  - Machine Learning
+tags:
+  - Statisitcs
+  - Machine Learning
+description: ''
+topics: []
+---
+
+Details can be viewed in my [Github](https://github.com/Likelyt/ML_WCM) Page
+

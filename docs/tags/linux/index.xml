@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on </title>
-    <link>/tags/linux/</link>
+    <link>https://liyuantong93.com/tags/linux/</link>
     <description>Recent content in Linux on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
     <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liyuantong93.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Create Multiple Directories and Files With Contents</title>
-      <link>/2018/08/06/</link>
+      <link>https://liyuantong93.com/2018/08/06/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/08/06/</guid>
+      <guid>https://liyuantong93.com/2018/08/06/</guid>
       <description>1. Create multiple directories for i in {1..6}; do for j in {1..5}; do for k in {1..10}; do for z in 0.00100 0.00200 0.00300 0.00400 0.00500 0.00600 0.00700 0.00800; do mkdir -p network_$i/CV_$j/layer_$k/lr_$z done done done done or
 mkdir -p network_1/{CV_1,CV_2,CV_3,done}  2. Create multiple files Step 1. Create A Dir mkdir file  Step 2. Move to Dir cd file/  Step 3. Create 100 python file touch Name{0001.</description>
     </item>
     
     <item>
       <title>VIM Basic Command</title>
-      <link>/2018/07/20/</link>
+      <link>https://liyuantong93.com/2018/07/20/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/07/20/</guid>
+      <guid>https://liyuantong93.com/2018/07/20/</guid>
       <description>Enjoy Vim! Vim Cheat Sheet
 Download website: Vim Download</description>
     </item>

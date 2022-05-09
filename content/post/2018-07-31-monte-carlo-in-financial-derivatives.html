@@ -1,0 +1,173 @@
+---
+title: Monte Carlo In Financial Derivatives
+author: Yuantong Li
+date: '2018-07-31'
+slug: monte-carlo-in-financial-derivatives
+categories:
+  - Finance
+  - Monte Carlo
+tags:
+  - Finance
+  - Monte Carlo
+description: ''
+topics: []
+---
+
+
+
+<div id="how-to-estimate-pi-with-python" class="section level1">
+<h1>1. How to estimate Pi with Python</h1>
+<pre class="python"><code>#library(reticulate)
+from random import random
+from math import pow, sqrt
+simulations = 5000
+hits = 0.0
+for x in xrange(simulations):
+    x = random() #0 &lt;= x &lt;= 1
+    y = random()
+    
+    #distance to (0,0)
+    dist = sqrt(pow(x,2) + pow(y,2))
+    
+    if dist &lt;= 1:
+        hits += 1
+print(4 * hits/simulations)</code></pre>
+<pre><code>## 3.156</code></pre>
+</div>
+<div id="pricing-options-using-monte-carlo" class="section level1">
+<h1>2. Pricing Options using Monte Carlo</h1>
+<p>A geometric Brownian motion is a random process where the logarithm of the random variable follows a normal distribution. This type of process distributes prices over a lognormal distribution.</p>
+<p>So now we have a method for calculating asset prices at time <span class="math inline">\(T\)</span>:</p>
+<p><span class="math display">\[S_T = S_t e^{(r-\frac{\sigma^2}{2})(T - t)+ \sigma\epsilon\sqrt{T - t}}\]</span></p>
+<p>where <span class="math inline">\(\epsilon \sim N(0,1)\)</span>.</p>
+<pre class="python"><code>import numpy as np
+import datetime
+def generate_asset_price(S,sigma,r,T):
+    return S * np.exp((r - 0.5 * sigma**2) * T + sigma * np.sqrt(T) * np.random.normal(0,1))
+def call_payoff(S_T,K):
+    return max(0,S_T-K)
+S = 800 # underlying price
+sigma = 0.20 # vol of 20%
+r = 0.014 # rate of 1.4%
+T = (datetime.date(2018,1,1) - datetime.date(2017,1,1)).days / 365.0
+K = 860 
+simulations = 100000
+payoffs = []
+discount_factor = np.exp(-r * T)
+for i in xrange(simulations):
+    S_T = generate_asset_price(S,sigma,r, T)
+    payoffs.append(call_payoff(S_T,K))
+    
+price = discount_factor * (sum(payoffs)/float(simulations))
+print &#39;Price: %.4f&#39; % price</code></pre>
+<pre><code>## Price: 44.2374</code></pre>
+</div>
+<div id="price-binary-option" class="section level1">
+<h1>3. Price Binary option</h1>
+<pre class="python"><code>import random
+from math import exp, sqrt
+def generate_asset_price(S,sigma,r,T):
+    return S * np.exp((r - 0.5 * sigma**2) * T + sigma * np.sqrt(T) * np.random.normal(0,1))
+def binary_call_payoff(K, S_T):
+    if S_T &gt;= K:
+        return 1.0
+    else:
+        return 0.0
+# parameters
+S = 40.0 # asset price
+sigma = 0.2 # vol of 20%
+r = 0.01 # rate of 1%
+maturity = 0.5
+K = 40.0 # ATM strike
+simulations = 50000
+payoffs = 0.0
+# run simultaion
+for i in xrange(simulations):
+    S_T = generate_asset_price(S, sigma, r, maturity)
+    payoffs += binary_call_payoff(K, S_T)
+# find prices
+option_price = exp(-r * maturity) * (payoffs / float(simulations))
+print &#39;Price: %.8f&#39; % option_price</code></pre>
+<pre><code>## Price: 0.48250145</code></pre>
+</div>
+<div id="measuring-volatility" class="section level1">
+<h1>4. Measuring Volatility</h1>
+<p>There are two types of volatility we can consider: implied and realised. Implied volatility can be extracted from option prices (it’s implied from the prices). Realised volatility is the actual volatility experienced by the underlying, which could be a stock, futures contract, etc.</p>
+<p><em>Simple estimation</em></p>
+<p><span class="math display">\[\sigma^2  = \frac{1}{N-1}\sum^{N}_{i=1}(x_i - \bar{x})^2\]</span></p>
+<p>where <span class="math inline">\(x_i\)</span> is the i’th log return, defined as:
+<span class="math display">\[x_i = \ln(\frac{S_i}{S_{i-1}})\]</span></p>
+<p><span class="math display">\[\sigma_{annual} = \sigma_{daily} \sqrt{252}\]</span></p>
+<p><em>Bias &amp; efficiency</em></p>
+<ol style="list-style-type: decimal">
+<li><p>Use higher frequency data, such as intraday prices.</p></li>
+<li><p>Use a better estimator.(such like highest or lowest)</p></li>
+</ol>
+<p><a href="http://breakingdownfinance.com/finance-topics/risk-management/parkinson-volatility/"><em>The Parkinson Estimator</em></a></p>
+</div>
+<div id="implied-volatility" class="section level1">
+<h1>5. Implied Volatility</h1>
+<p>Use Newton’s method:</p>
+<pre class="python"><code>from scipy.stats import norm
+import random
+from math import exp, sqrt
+import datetime
+import numpy as np
+def find_vol(target_value, call_put, S, K, T, r):
+    MAX_ITERATIONS = 100
+    PRECISION = 1.0e-5
+    
+    sigma = 0.5
+    for i in xrange(0, MAX_ITERATIONS):
+        price = bs_price(call_put, S, K, T, r, sigma)
+        vega = bs_vega(call_put, S,K, T, r, sigma)
+        
+        price = price
+        diff = target_value - price
+        
+        print(i, sigma, diff)
+        
+        if(abs(diff) &lt; PRECISION):
+            return sigma
+        sigma = sigma + diff/vega # f(x)/f&#39;(x)
+        
+    # value wasn&#39;t found, return best guess so far
+    return sigma
+    
+    
+    
+n = norm.pdf
+N = norm.cdf
+def bs_price(cp_flag, S, K, T, r, v, q=0.0):
+    d1 = (np.log(S/K)+(r+v**2/2.0)*T)/(v*sqrt(T))
+    d2 = d1 - v*sqrt(T)
+    
+    if cp_flag == &#39;c&#39;:
+        price = S * exp(-q*T) * N(d1) - K * exp(-r*T) * N(d2)
+    else:
+        price = K * exp(-r*T) * N(-d2) - S * exp(-q*T) * N(-d1)
+        
+    return price
+def bs_vega(cp_flag, S,K,T,r,v,q=0.0):
+    d1 = (np.log(S/K)+(r+v**2/2.0)*T)/(v*sqrt(T))
+    return S * sqrt(T) * n(d1)
+V_market = 17.5
+K = 585
+T = (datetime.date(2014,10,18) - datetime.date(2014,9,8)).days / 365.
+S = 586.08
+r = 0.0002
+cp = &#39;c&#39; # call option
+implied_vol = find_vol(V_market, cp, S, K, T, r)</code></pre>
+<pre><code>## (0, 0.5, -21.669539271534063)
+## (1, 0.21879739316064523, 0.032171548812300443)
+## (2, 0.21921383628613422, 1.9891615465894574e-08)</code></pre>
+<pre class="python"><code>print &#39;Implied vol: %.2f%%&#39; % (implied_vol * 100)</code></pre>
+<pre><code>## Implied vol: 21.92%</code></pre>
+<pre class="python"><code>print &#39;Market price = %.2f&#39; % V_market</code></pre>
+<pre><code>## Market price = 17.50</code></pre>
+<pre class="python"><code>print &#39;Model price = %.2f&#39; % bs_price(cp, S, K, T, r, implied_vol)</code></pre>
+<pre><code>## Model price = 17.50</code></pre>
+</div>
+<div id="delta-hedged-portfolio" class="section level1">
+<h1>6. Delta-hedged portfolio</h1>
+</div>

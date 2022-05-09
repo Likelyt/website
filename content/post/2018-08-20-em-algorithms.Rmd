@@ -1,0 +1,24 @@
+---
+title: EM Algorithms
+author: Yuantong
+date: '2018-08-20'
+slug: em-algorithms
+categories:
+  - Algorithms
+tags:
+  - Algorithms
+description: ''
+topics: []
+---
+
+
+Original Paper: [EM algorithm](https://www.jstor.org/stable/pdf/2984875.pdf)
+
+Lecture Notes [1](https://www.stat.cmu.edu/~cshalizi/350/lectures/29/lecture-29.pdf), [2](https://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch20.pdf), [3](https://stephens999.github.io/fiveMinuteStats/intro_to_em.html)
+
+Wikipedia gives a really great explanantion [3](https://en.wikipedia.org/wiki/Expectation–maximization_algorithm)
+
+UCI CS [note](https://www.ics.uci.edu/~smyth/courses/cs274/notes/mixture_models_EM.pdf)
+
+Nine step understand EM [Whole map](http://www.sohu.com/a/210551059_473283)
+

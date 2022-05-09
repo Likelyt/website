@@ -1,0 +1,12 @@
+---
+title: Information Retrieval
+author: YTL
+date: '2019-05-28'
+slug: information-retrieval
+categories: []
+tags: []
+description: ''
+topics: []
+---
+
+In IR, the true loss functions can be those defined based on NDCG (Normalized Discounted Cumulative Gain) and MAP (Mean Average Precision).

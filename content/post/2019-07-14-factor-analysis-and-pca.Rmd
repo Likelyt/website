@@ -1,0 +1,22 @@
+---
+title: Factor Analysis and PCA
+author: Yuantong
+date: '2019-07-14'
+slug: factor-analysis-and-pca
+categories:
+  - Machine Learning
+  - Algorithms
+  - Dimension Reduction
+tags:
+  - Algorithms
+  - Machine Learning
+  - Dimension Reduction
+description: ''
+topics: []
+---
+
+The Factor Analysis [note](https://www.cs.cmu.edu/~pmuthuku/mlsp_page/lectures/slides/JFA_presentation_final.pdf) from CMU.
+
+The PCA
+
+
