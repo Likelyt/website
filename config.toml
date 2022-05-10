@@ -6,7 +6,7 @@ paginate = 10
 theme = "blackburn"
 googleAnalytics = "UA-166886302-1"
 copyright = "&copy; 2020 Yuantong Li. All rights reserved."
-ignoreFiles = ["\\.Rmd$", "\\.md$","\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$","\\.Rmarkdown$", "_files$", "_cache$"]
 
 
 [permalinks]

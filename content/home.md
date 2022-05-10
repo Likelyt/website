@@ -42,7 +42,7 @@ My research interests fall in trustworthy AI combined with sequential decision m
 ### Publications
 
 9. Rate-Optimal Contextual Online Matching Bandit\
-_**Y. Li**, C. Wang, G. Cheng, W. Sun_\
+_**Y. Li**, C. Wang, G. Cheng, W. Sun._\
 [[paper]](https://arxiv.org/abs/2205.03699)
 
 8. Residual Bootstrap Exploration for Stochastic Linear Bandit\
