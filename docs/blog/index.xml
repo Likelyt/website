@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on </title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dual Coding Theory</title>
+      <link>/blog/chi-hua-first-post/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/chi-hua-first-post/</guid>
+      <description>Q01. 底層哲學?  {&#34;x&#34;:{&#34;diagram&#34;:&#34;\n graph LR\n\tA(組織器 Organizer)\n\tA--A1(狀態 Stasis)\n\tA--A2(改變 Change) \n\tA1--A11(塊狀 Chunk)\n\tA1--A12(比較 Comparison)\n\tA2--A21(序貫 Sequence)\n\tA2--A22(因果 Cause-Effect)\n\tA11--A111(樹狀圖 Tree diagram)\n\tA11--A112(心智圖 Mind Map)\n\tA11--A113(概念圖 Concept Map)\n\t&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}  Q02. Tree diagram與Mind map的差異? 我怎麼想: Tree diagram感覺有秩序, Mind map感覺較無秩序. 書怎麼講: 兩者相同, 只是一個畫得像是發散, 一個像是有上下
+ Q03. Hierarchy與Association的差異?  Hierarchy 有閱讀順序, 可以看到上與下, 容易操作 Association 則是無明顯閱讀順序   Q04. 那麼發散與上下, 視覺效果如何?  發散: 感覺還可以增加. 上下: 感覺就這麼多了.   Q05. 二維座標圖可以怎麼做?  選兩個維度, 然後比較相對的work.  第一部分 - 樣本數可以是隨機 - Training 或者 Monitoring?</description>
+    </item>
+    
+    <item>
+      <title>How to use multiple GPUs on Pytorch</title>
+      <link>/blog/how-to-use-multiple-gpus-on-pytorch/</link>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/how-to-use-multiple-gpus-on-pytorch/</guid>
+      <description>An official note on how to use multiple GPUs on Pytorch.
+Another avaiable on horovod</description>
+    </item>
+    
+    <item>
+      <title>Minimax Estimator and Bayes Estimator</title>
+      <link>/blog/minimax-estimator-and-bayes-estimator/</link>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/minimax-estimator-and-bayes-estimator/</guid>
+      <description>CMU STAT705 notes</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Methods and Elementary Decision Theory</title>
+      <link>/blog/bayesian-methods-and-elementary-decision-theory/</link>
+      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/bayesian-methods-and-elementary-decision-theory/</guid>
+      <description>Washington Stat notes</description>
+    </item>
+    
+    <item>
+      <title>Convergence in statistics</title>
+      <link>/blog/convergence-in-statistics/</link>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/convergence-in-statistics/</guid>
+      <description>1. convergence in distribution  2. convergence in probability  3. convergence in \(L_{P}\)  4. convergence almost surely  </description>
+    </item>
+    
+    <item>
+      <title>Dual Problem</title>
+      <link>/blog/dual-problem/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/dual-problem/</guid>
+      <description>Lagrange dual problem \[ \begin{array}{c} {\text { maximize } \psi_{D}(\boldsymbol{\lambda}, \boldsymbol{\nu})} \\ {\text { subject to } \boldsymbol{\lambda} \geq \mathbf{0}} \end{array} \]
+Weak and Strong Duality 1.Weak duality: \(d^{\star} \leq p^{\star}\)  always holds (for convex and nonconvex programs)
+ can be used to find nontrivial lower bounds for difficult problems
+   2.Strong duality: \(d^{\star} = p^{\star}\)  does not hold in general
+ (usually) holds for convex problems</description>
+    </item>
+    
+    <item>
+      <title>Adaptive lasso, MCP, and SCAD</title>
+      <link>/blog/adaptive-lasso-mcp-and-scad/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/adaptive-lasso-mcp-and-scad/</guid>
+      <description>Univeristy of Iowa Notes</description>
+    </item>
+    
+    <item>
+      <title>Moreau-Yosida regularization</title>
+      <link>/blog/moreau-yosida-regularization/</link>
+      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/moreau-yosida-regularization/</guid>
+      <description>UCLA ECE236C: Optimization Methods for Large-scale Systems Notes</description>
+    </item>
+    
+    <item>
+      <title>Conjugated gradient</title>
+      <link>/blog/conjugated-gradient/</link>
+      <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/conjugated-gradient/</guid>
+      <description>Two vectors \(u\) and \(v\) are conjugate with respect to the matrix \(A\) if \(u^{\prime} A v = 0\).
+Suppose we want to minimize the quadratic function \[ f(x)=\frac{1}{2} x^{\prime} A x-x^{\prime} b \] where \(x\) is a \(p\)-dimensional vector and \(A\) is a \(p\times p\) symmetric matrix. \(p_{0}=-f^{\prime}\left(x_{0}\right)=b-A x_{0}\), which is the negative gradient. So we can begin with the steepest descent direction \(-f^{\prime}\left(x_{1}\right)\) but then we must modify it to make it conjugate to \(p_{0}\).</description>
+    </item>
+    
+    <item>
+      <title>Generalized Linear Model</title>
+      <link>/blog/generalized-linear-model/</link>
+      <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/generalized-linear-model/</guid>
+      <description>In statistics, the generalized linear model (GLM) is a flexible generalization of ordinary linear regression that allows for response variables that have error distribution models other than a normal distribution. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a link function and by allowing the magnitude of the variance of each measurement to be a function of its predicted value.</description>
+    </item>
+    
+    <item>
+      <title>Stochastic Variational Inference</title>
+      <link>/blog/stochastic-variational-inference/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/stochastic-variational-inference/</guid>
+      <description>Some slides Nips 2016, CMU Lecture 12, CMU Lecture 13</description>
+    </item>
+    
+    <item>
+      <title>Factor Analysis and PCA</title>
+      <link>/blog/factor-analysis-and-pca/</link>
+      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/factor-analysis-and-pca/</guid>
+      <description>The Factor Analysis note from CMU.
+The PCA</description>
+    </item>
+    
+    <item>
+      <title>Graph Convolutional Networks</title>
+      <link>/blog/graph-neural-networks/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/graph-neural-networks/</guid>
+      <description>Two types of GCN:
+Defferrard, M., Bresson, X., &amp;amp; Vandergheynst, P. (2016). Paper
+ Kipf, T. N., &amp;amp; Welling, M. (2016). Paper
+  </description>
+    </item>
+    
+    <item>
+      <title>Statistical Learning</title>
+      <link>/blog/statistical-learning/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/statistical-learning/</guid>
+      <description>Details can be viewed in my Github Page</description>
+    </item>
+    
+    <item>
+      <title>Information Retrieval</title>
+      <link>/blog/information-retrieval/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/information-retrieval/</guid>
+      <description>In IR, the true loss functions can be those defined based on NDCG (Normalized Discounted Cumulative Gain) and MAP (Mean Average Precision).</description>
+    </item>
+    
+    <item>
+      <title>Sampling Methods and Monte Carlo methods</title>
+      <link>/blog/sampling-method/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/sampling-method/</guid>
+      <description>Suppose we have a function \(f(x)\) and we’d like to compute \(E{f(X )} =\int f(x)p(x)dx\), where \(g(x)\) is a density.
+There is no guarantee that the techniques we learn in calculus are sufficient to evaluate this integral analytically.
+Thankfully, the law of large numbers (LLN) is here to help:
+If X1, X2, . . . are iid samples from \(g(x)\), then
+\(\frac{1}{n}\sum^{n}_{i=1}f(x_{i}) \rightarrow \int f(x)p(x)dx = E[f(x)]\) with prob 1</description>
+    </item>
+    
+    <item>
+      <title>EM Algorithms</title>
+      <link>/blog/em-algorithms/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/em-algorithms/</guid>
+      <description>Original Paper: EM algorithm
+Lecture Notes 1, 2, 3
+Wikipedia gives a really great explanantion 3
+UCI CS note
+Nine step understand EM Whole map</description>
+    </item>
+    
+    <item>
+      <title>Create Multiple Directories and Files With Contents</title>
+      <link>/blog/create-multiple-files/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/create-multiple-files/</guid>
+      <description>1. Create multiple directories for i in {1..6}; do for j in {1..5}; do for k in {1..10}; do for z in 0.00100 0.00200 0.00300 0.00400 0.00500 0.00600 0.00700 0.00800; do mkdir -p network_$i/CV_$j/layer_$k/lr_$z done done done done or
+mkdir -p network_1/{CV_1,CV_2,CV_3,done}  2. Create multiple files Step 1. Create A Dir mkdir file  Step 2. Move to Dir cd file/  Step 3. Create 100 python file touch Name{0001.</description>
+    </item>
+    
+    <item>
+      <title>Linear Time Series</title>
+      <link>/blog/time-series/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/time-series/</guid>
+      <description>1. Introduction to Time Series Random Walk with drift:
+\[X_t = \delta + X_{t-1} + W_{t}\]
+library(astsa, quietly = TRUE) x = ts(cumsum(rnorm(500) + 0.2)) plot(x) Autocovariance function:
+\[\gamma_{X}(s,t) = E[(X_s - \mu_{X,s})(X_t - \mu_{X,t})]\] and we know \(\gamma_{X}(s,t) = \gamma_{X}(t,s)\)
+Autocorrelation function (ACF):
+\[\rho_{X}(s,t) = \frac{\gamma_{X}(s,t)}{\sqrt{\gamma_{X}(s,s)}\sqrt{\gamma_{X}(t,t)}}\]
+Cross correlation function (CCF):
+\[\rho_{X,Y}(s,t) = \frac{\gamma_{X,Y}(s,t)}{\sqrt{\gamma_{X}(s,s)}\sqrt{\gamma_{Y}(t,t)}}\]
+Strong (or strict) stationarity  A time series \(X_t\) is called strongly stationary if the joint distribution of every finite collection of variables remain the same under time shifts, i.</description>
+    </item>
+    
+    <item>
+      <title>Monte Carlo In Financial Derivatives</title>
+      <link>/blog/monte-carlo-in-financial-derivatives/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/monte-carlo-in-financial-derivatives/</guid>
+      <description>1. How to estimate Pi with Python #library(reticulate) from random import random from math import pow, sqrt simulations = 5000 hits = 0.0 for x in xrange(simulations): x = random() #0 &amp;lt;= x &amp;lt;= 1 y = random() #distance to (0,0) dist = sqrt(pow(x,2) + pow(y,2)) if dist &amp;lt;= 1: hits += 1 print(4 * hits/simulations) ## 3.156  2. Pricing Options using Monte Carlo A geometric Brownian motion is a random process where the logarithm of the random variable follows a normal distribution.</description>
+    </item>
+    
+    <item>
+      <title>Options</title>
+      <link>/blog/options/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/options/</guid>
+      <description>3. Options 3.1 Option Basic Two Types of Options: Call (right buy) and Put (right sell).
+American Options can exercise at any time up to and including expiration.
+A. Moneyness A call option is in-the-money if the asset price is greater than the exercise price (i.e., if it would be worth something exercised).
+ A put option is in-the-money if the asset price is less than the exercise price (i.e., if it would be worth something exercised).</description>
+    </item>
+    
+    <item>
+      <title>Derivatives</title>
+      <link>/blog/derivatives/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/derivatives/</guid>
+      <description>1. Forward  2. Future  4. VaR Model  5. Additional 5.1 Risk-Adjusted Return 5.1.1 Sharpe ratio \[\text{sharpe ratio} = \frac{\text{excess returns}}{\text{volatility}} = \frac{\mu - r}{\sigma}\]
+ 5.1.2 Treynor Ratio \[\frac{\mu - r}{\beta}\]
+ 5.1.3 Information Ratio  5.1.4 Jensen Alpha  5.1.5 M^2    6. Hedge Fund Strategy LP, GP: management fee and incentive fee, usually 2&amp;amp;20 (hurdle rate).
+Similarity and difference between Hedge Fund &amp;amp; Mutual Fund</description>
+    </item>
+    
+    <item>
+      <title>VIM Basic Command</title>
+      <link>/blog/vim-basic-command/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/vim-basic-command/</guid>
+      <description>Enjoy Vim! Vim Cheat Sheet
+Download website: Vim Download</description>
+    </item>
+    
+    <item>
+      <title>Welcome!</title>
+      <link>/blog/first-post/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-post/</guid>
+      <description>Welcome to Yuantong’s website! This is the first post of this website.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://liyuantong93.com/talks/</loc>
-    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuantong93.com/2019/08/12/</loc>
     <lastmod>2019-08-12T00:00:00+00:00</lastmod>
   </url>
@@ -128,11 +123,6 @@
   </url>
   
   <url>
-    <loc>https://liyuantong93.com/home/</loc>
-    <lastmod>2018-07-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liyuantong93.com/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -149,7 +139,19 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/algorithms/</loc>
+    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/tags/bash/</loc>
+    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/bash/</loc>
     <lastmod>2018-08-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -161,7 +163,25 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/bayesian/</loc>
+    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/</loc>
+    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/tags/computing/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/computing/</loc>
     <lastmod>2019-08-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -173,7 +193,19 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/convex-optimization/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/tags/decision-theory/</loc>
+    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/decision-theory/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -185,7 +217,19 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/deep-learning/</loc>
+    <lastmod>2019-07-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/tags/derivatives/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/derivatives/</loc>
     <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -197,7 +241,19 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/dimension-reduction/</loc>
+    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/tags/finance/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/finance/</loc>
     <lastmod>2018-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -209,7 +265,19 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/gcn/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/tags/linear-model/</loc>
+    <lastmod>2019-07-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/linear-model/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -221,7 +289,19 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/linux/</loc>
+    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/tags/machine-learning/</loc>
+    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/machine-learning/</loc>
     <lastmod>2019-07-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -233,7 +313,19 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/mcmc/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/tags/monte-carlo/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/monte-carlo/</loc>
     <lastmod>2018-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -245,17 +337,31 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/optimization/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/options/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/post/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://liyuantong93.com/publications/</loc>
+    <loc>https://liyuantong93.com/tags/python/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://liyuantong93.com/tags/python/</loc>
+    <loc>https://liyuantong93.com/categories/python/</loc>
     <lastmod>2019-08-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -267,7 +373,19 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/r/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/tags/regularization/</loc>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/regularization/</loc>
     <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -280,6 +398,12 @@
   
   <url>
     <loc>https://liyuantong93.com/tags/statistics/</loc>
+    <lastmod>2019-07-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/statistics/</loc>
     <lastmod>2019-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -309,7 +433,8 @@
   </url>
   
   <url>
-    <loc>https://liyuantong93.com/topics/</loc>
+    <loc>https://liyuantong93.com/categories/time-series/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -320,7 +445,19 @@
   </url>
   
   <url>
+    <loc>https://liyuantong93.com/categories/variable-selection/</loc>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liyuantong93.com/tags/variational-inference/</loc>
+    <lastmod>2019-07-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liyuantong93.com/categories/variational-inference/</loc>
     <lastmod>2019-07-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

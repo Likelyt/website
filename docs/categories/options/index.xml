@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Options on </title>
+    <link>https://liyuantong93.com/categories/options/</link>
+    <description>Recent content in Options on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 29 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://liyuantong93.com/categories/options/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Options</title>
+      <link>https://liyuantong93.com/2018/07/29/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://liyuantong93.com/2018/07/29/</guid>
+      <description>3. Options 3.1 Option Basic Two Types of Options: Call (right buy) and Put (right sell).
+American Options can exercise at any time up to and including expiration.
+A. Moneyness A call option is in-the-money if the asset price is greater than the exercise price (i.e., if it would be worth something exercised).
+ A put option is in-the-money if the asset price is less than the exercise price (i.e., if it would be worth something exercised).</description>
+    </item>
+    
+  </channel>
+</rss>

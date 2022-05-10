@@ -1,19 +1,19 @@
 ---
-title: Dual Coding Theory
-author: Chi-hua Wang
-date: 2022-04-15
-categories:
-  - R
-tags:
-  - Teaching
-  - visualization
+title: "Dual Coding Theory"
+author: chihuawang
+date: '2022-04-15'
+categories: R
 slug: chi-hua-first-post
+tags:
+- Teaching
+- visualization
+authors: chihuawang
 ---
 
 
+
+
 ## Q01.  底層哲學?
-
-
 
 ```{r,echo=FALSE}
 library(DiagrammeR)
@@ -90,8 +90,6 @@ mermaid("
 ## Q09.
 
 ## Q10.
-
-
 
 
 

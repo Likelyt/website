@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.42.2" />
+
+  <title>Options &middot; </title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/Ascetic.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="/">Yuantong Li</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/home/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/blog/"><i class='fa fa-institution fa-fw'></i>Blog</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2020 Yuantong Li. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Options</h1>
+  <h2></h2>
+</div>
+<div class="content">
+  <div id="options" class="section level1">
+<h1>3. Options</h1>
+<div id="option-basic" class="section level2">
+<h2>3.1 Option Basic</h2>
+<p>Two Types of Options: Call (right buy) and Put (right sell).</p>
+<p>American Options can exercise at any time up to and including expiration.</p>
+<div id="a.-moneyness" class="section level4">
+<h4>A. Moneyness</h4>
+<ol style="list-style-type: decimal">
+<li><p>A call option is <em>in-the-money</em> if the asset price is greater than the exercise price (i.e., if it would be worth something exercised).</p></li>
+<li><p>A put option is <em>in-the-money</em> if the asset price is less than the exercise price (i.e., if it would be worth something exercised).</p></li>
+<li><p>A call option is <em>out-of-the-money</em> if the asset price is less than the exercise price (i.e., if there is a net cost to exercising the option).</p></li>
+<li><p>A put option is <em>out-of-the-money</em> if the asset price is greater than the exercise price (i.e., if there is a net cost to exercising the option)</p></li>
+</ol>
+</div>
+<div id="b.-option-positions-and-profits-at-maturity" class="section level4">
+<h4>B. Option Positions and Profits at Maturity</h4>
+<ol style="list-style-type: decimal">
+<li><p><em>Buying</em> a call option establishes a <em>long</em> position. The holder has the right to buy at <span class="math inline">\(X\)</span>. The profit at maturity is <span class="math inline">\(\max(S_T-X, 0) - C\)</span>.</p></li>
+<li><p><em>Buying</em> a put option establishes a <em>long</em> position. The holder has the right to sell at <span class="math inline">\(X\)</span>. The profit at maturity is <span class="math inline">\(\max(X- S_T) - P\)</span>.</p></li>
+<li><p><em>Writing</em> a call option establishes a <em>short</em> position. The writer/seller is obligated to sell for <span class="math inline">\(X\)</span>. The profit at maturity is <span class="math inline">\(C-\max(S_T-X, 0)\)</span>.</p></li>
+<li><p><em>Writing</em> a put option establishes a <em>short</em> position. The writer/seller is obligated to buy for <span class="math inline">\(X\)</span>. The profit at maturity is <span class="math inline">\(P-\max(X-S_T, 0)\)</span>.</p></li>
+</ol>
+</div>
+<div id="c.-intrinsic-value-and-time-value" class="section level4">
+<h4>C. Intrinsic Value and Time Value</h4>
+<p><span class="math display">\[C = \max(S_T - X) + \text{Time Value}\]</span></p>
+<p><span class="math display">\[P = \max(X - S_T) + \text{Time Value}\]</span></p>
+</div>
+<div id="d.-contracts" class="section level4">
+<h4>D. Contracts</h4>
+<p>Options are bought and sold in contracts. One contract is 100 options. Since one option is to buy or sell one share of stock, one option contract is to buy or sell 100 shares of stock.</p>
+</div>
+<div id="e.-influence-of-variables-on-stock-option-price" class="section level4">
+<h4>E. Influence of Variables on Stock Option Price</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Variable</th>
+<th align="center">European Call</th>
+<th align="center">European Put</th>
+<th align="center">American Call</th>
+<th align="center">American Put</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Stock price</td>
+<td align="center">+</td>
+<td align="center">-</td>
+<td align="center">+</td>
+<td align="center">-</td>
+</tr>
+<tr class="even">
+<td align="center">Strike price</td>
+<td align="center">-</td>
+<td align="center">+</td>
+<td align="center">-</td>
+<td align="center">+</td>
+</tr>
+<tr class="odd">
+<td align="center">Time to expiration</td>
+<td align="center">?</td>
+<td align="center">?</td>
+<td align="center">+</td>
+<td align="center">+</td>
+</tr>
+<tr class="even">
+<td align="center">Volatility</td>
+<td align="center">+</td>
+<td align="center">+</td>
+<td align="center">+</td>
+<td align="center">+</td>
+</tr>
+<tr class="odd">
+<td align="center">Risk-free rate</td>
+<td align="center">+</td>
+<td align="center">-</td>
+<td align="center">+</td>
+<td align="center">-</td>
+</tr>
+<tr class="even">
+<td align="center">Dividends</td>
+<td align="center">-</td>
+<td align="center">+</td>
+<td align="center">-</td>
+<td align="center">+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="price-restriction" class="section level2">
+<h2>3.2 Price Restriction</h2>
+<div id="a.-upper-and-lower-bounds-for-option-prices" class="section level4">
+<h4>A. Upper and Lower bounds for option prices</h4>
+<p><em>If there is no dividends, then European Call will be the same as the American Call.</em></p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Option</th>
+<th align="center">Proxy</th>
+<th align="center">Min Value</th>
+<th align="center">Max Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">European Call</td>
+<td align="center">c</td>
+<td align="center">max<span class="math inline">\(\{S_0 - Xe^{-rT}, 0\}\)</span></td>
+<td align="center"><span class="math inline">\(S_0\)</span></td>
+</tr>
+<tr class="even">
+<td align="center">American Call</td>
+<td align="center">C</td>
+<td align="center">max<span class="math inline">\(\{S_0 - Xe^{-rT}, 0\}\)</span></td>
+<td align="center"><span class="math inline">\(S_0\)</span></td>
+</tr>
+<tr class="odd">
+<td align="center">European Put</td>
+<td align="center">p</td>
+<td align="center">max<span class="math inline">\(\{Xe^{-rT} - S_0, 0\}\)</span></td>
+<td align="center"><span class="math inline">\(Xe^{-rT}\)</span></td>
+</tr>
+<tr class="even">
+<td align="center">American Put</td>
+<td align="center">P</td>
+<td align="center">max<span class="math inline">\(\{X - S_0, 0\}\)</span></td>
+<td align="center"><span class="math inline">\(X\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="b.-put-call-parity" class="section level4">
+<h4>B. Put-Call Parity</h4>
+<p><em>PSCK for European</em></p>
+<p><span class="math display">\[c + Xe^{-rt} = p + S_0\]</span></p>
+<p><span class="math display">\[c + Xe^{-rt} = p + S_0 - D\]</span></p>
+<p><em>PSCK for American</em></p>
+<p><span class="math display">\[S_0 - X \leq C - P \leq S_0 - Xe^{-rT} \]</span></p>
+<p><span class="math display">\[S_0 - X - D \leq C - P \leq S_0 - Xe^{-rT} \]</span></p>
+</div>
+</div>
+<div id="option-strategies" class="section level2">
+<h2>3.3 Option Strategies</h2>
+<div id="simple-strategies" class="section level3">
+<h3>3.3.1 Simple Strategies</h3>
+<ul>
+<li>S + Option*</li>
+</ul>
+<div id="a.-covered-call" class="section level4">
+<h4>A. Covered Call</h4>
+<p>Covered Call = -C + S</p>
+<ul>
+<li>Income Strategy</li>
+<li>Outlook is neutural to bullish</li>
+</ul>
+</div>
+<div id="b.-protective-put" class="section level4">
+<h4>B. Protective Put</h4>
+<p>Protective Put = S + P</p>
+<ul>
+<li>Insurance Strategy</li>
+</ul>
+</div>
+</div>
+<div id="spread" class="section level3">
+<h3>3.3.2 Spread</h3>
+<ul>
+<li>Option, same type*</li>
+</ul>
+<div id="a.-bull-and-bear-spreads" class="section level4">
+<h4>A. Bull and Bear spreads</h4>
+<p><em>Bull Call spread</em></p>
+<ul>
+<li>Long low <span class="math inline">\(K_1\)</span>, short high <span class="math inline">\(K_2\)</span>.</li>
+</ul>
+<p>Profit = <span class="math inline">\(\text{max}\{S_T - K_1, 0\} - C_1 - \text{max}\{S_T-K_2, 0\} + C_2\)</span></p>
+<p><em>Bull Put spread</em></p>
+<ul>
+<li>Long low <span class="math inline">\(K_1\)</span>, short high <span class="math inline">\(K_2\)</span>.</li>
+</ul>
+<p>Profit = <span class="math inline">\(\text{max}\{K_1 - S_T, 0\} - P_1 - \text{max}\{K_2 - S_T, 0\} + P_2\)</span></p>
+<p><em>Bear Put spread</em></p>
+<ul>
+<li>Long high <span class="math inline">\(K_2\)</span>, short low <span class="math inline">\(K_1\)</span>.</li>
+</ul>
+<p>Profit = <span class="math inline">\(\text{max}\{K_2 - S_T, 0\} - P_2 - \text{max}\{K_1 - S_T, 0\} + P_1\)</span></p>
+<p><em>Bear Call spread</em></p>
+<ul>
+<li>Long high <span class="math inline">\(K_2\)</span>, short low <span class="math inline">\(K_1\)</span>.</li>
+</ul>
+<p>Profit = <span class="math inline">\(\text{max}\{S_T - K_2 , 0\} - C_2 - \text{max}\{S_T - K_1 , 0\} + C_1\)</span></p>
+</div>
+<div id="b.-butterfly-spreads" class="section level4">
+<h4>B. Butterfly spreads</h4>
+<ul>
+<li>Long <span class="math inline">\(K_1\)</span>, Long <span class="math inline">\(K_2\)</span>, short 2 <span class="math inline">\(\frac{K_1+K_2}{2}\)</span>.</li>
+</ul>
+<p>Expects low Volatility</p>
+<p>Capped Risk</p>
+</div>
+<div id="c.-calendar-spreads" class="section level4">
+<h4>C. <a href="https://www.investopedia.com/terms/c/calendarspread.asp">Calendar spreads</a></h4>
+</div>
+<div id="d.-diagonal-spreads" class="section level4">
+<h4>D. <a href="https://www.investopedia.com/university/optionspreadstrategies/optionspreads6.asp">Diagonal spreads</a></h4>
+</div>
+</div>
+<div id="combination" class="section level3">
+<h3>3.3.3 Combination</h3>
+<ul>
+<li>Option, different*</li>
+</ul>
+<div id="a.-straddle-and-strangle" class="section level4">
+<h4>A. Straddle and Strangle</h4>
+<ul>
+<li>Taking a position in both calls and puts on the same stock.</li>
+</ul>
+<p><em>Straddle</em></p>
+<ul>
+<li><p>A call and a put</p></li>
+<li><p>Same strike price</p></li>
+<li><p>Direction neutral</p></li>
+<li><p>Wants volatility</p></li>
+</ul>
+<p><em>Strangle</em></p>
+<ul>
+<li><p>A call and a put</p></li>
+<li><p>Different strike prices</p></li>
+<li><p>Like straddle, but cheaper</p></li>
+</ul>
+<p><em>Strip</em></p>
+<ul>
+<li><p>Two puts and a call</p></li>
+<li><p>Bet on volatility</p></li>
+<li><p>More Bearish</p></li>
+</ul>
+<p><em>Strap</em></p>
+<ul>
+<li><p>Two calls and a put</p></li>
+<li><p>Bet on volatility</p></li>
+<li><p>More Bullish</p></li>
+</ul>
+</div>
+</div>
+<div id="exotic-options" class="section level3">
+<h3>3.3.4 Exotic Options</h3>
+</div>
+</div>
+<div id="greeks" class="section level2">
+<h2>3.4 Greeks</h2>
+<div id="delta" class="section level3">
+<h3>3.4.1 Delta</h3>
+<p>The Delta of a European call option is the rate of change of its value with respect to the underlying security price:</p>
+<p><span class="math display">\[\Delta = \frac{\partial f }{\partial S} = \Phi (d_1) \text{or } \Phi (d_1) - 1 \]</span></p>
+<p>The range is <span class="math inline">\(-1 \leq \Delta \leq 1\)</span>.</p>
+<p><em>Delta is additive</em></p>
+<p>a Long Call + Short Put = Long stock,</p>
+<p>Call Delta + Delta of a Short Put = Stock Delta (Delta of a short put = - delta of a long put)</p>
+<p><em>Probability explanation</em></p>
+<p>Call deltas can be interpreted as the probability of the option finishing in-the-money. For this reason, a deep in-the-money option will have a delta close to 1, and a deep out-of-the-money option will have a delta close to 0.</p>
+<p><em>Time</em></p>
+<p>When <span class="math inline">\(t \rightarrow T\)</span>, delta is unstable.</p>
+<div id="a.-slope-of-call-option" class="section level4">
+<h4>A. <em>Slope of call option</em></h4>
+</div>
+<div id="b.-cdf-of-normal-distribution" class="section level4">
+<h4>B. <em>CDF of Normal Distribution</em></h4>
+</div>
+<div id="c.-hedge-ratio" class="section level4">
+<h4>C. <em>Hedge ratio</em></h4>
+<p><a href="https://www.investopedia.com/terms/d/deltahedging.asp">Delta neutral</a>: <a href="https://www.glynholton.com/notes/dynamic_hedging/">Dynamic aspects of delta hedge</a></p>
+</div>
+</div>
+<div id="gamma-the-convexity-factor" class="section level3">
+<h3>3.4.2 Gamma: The convexity factor</h3>
+<p>The Gamma <span class="math inline">\(\Gamma\)</span> of a derivative is the sensitivity of <span class="math inline">\(\Delta\)</span> with respect to <span class="math inline">\(S\)</span>:</p>
+<p><span class="math display">\[\Gamma = \frac{\partial^2 f}{\partial S^2} =\frac{N^{&#39;}(d_1)}{S \sigma \sqrt{T}} =\frac{1}{S \sqrt{2\pi} \sigma \sqrt{T-t}} \exp(-\frac{d_1^2}{2})\]</span></p>
+<p>Range: <span class="math inline">\(0 \rightarrow + \rightarrow 0\)</span><br />
+Since long call or put option are both convex (larger than 0). It is a pdf of normal distribution. So when Gamma is the largest, an option is at the money.</p>
+<p>When you long a call or put, you prefer the Gamma as large as possible.</p>
+<p><em>Time</em></p>
+<p>when <span class="math inline">\(t \rightarrow T\)</span>, Gamma increases. Peak higher.</p>
+<div id="a.-summary" class="section level5">
+<h5>A. <em>Summary</em></h5>
+<ol style="list-style-type: decimal">
+<li><p>Long Call: <span class="math inline">\(\Delta &gt; 0, \Gamma &gt; 0\)</span></p></li>
+<li><p>Long Put: <span class="math inline">\(\Delta &lt; 0, \Gamma &gt; 0\)</span></p></li>
+<li><p>Short Call: <span class="math inline">\(\Delta &lt; 0, \Gamma &lt; 0\)</span></p></li>
+<li><p>Short Put: <span class="math inline">\(\Delta &gt; 0, \Gamma &lt; 0\)</span></p></li>
+</ol>
+</div>
+<div id="b.-taylor-expansion" class="section level5">
+<h5>B. <em>Taylor expansion</em></h5>
+<p><span class="math display">\[ df  = \Delta dS + \frac{1}{2} \Gamma (dS)^{2}\]</span></p>
+</div>
+<div id="c.-gamma-neutral-position" class="section level5">
+<h5>C. Gamma Neutral Position</h5>
+<p><a href="https://www.investopedia.com/terms/g/gammaneutral.asp">Gamma Neutral</a></p>
+</div>
+</div>
+<div id="vega-the-volatility-factor" class="section level3">
+<h3>3.4.3 Vega: The volatility factor</h3>
+<p>The Vega (<span class="math inline">\(\nu\)</span>) of a derivative security is the rate of change of value of the derivative with respect to the volatility of the underlying asset.</p>
+<p><span class="math display">\[\nu = \frac{\partial C}{\partial T} = \frac{\partial P}{\partial T} = S \sqrt{T} N^{&#39;}(d_1)\]</span></p>
+<ul>
+<li><p>Most sensitive to changes to volatility when they are at the money.</p></li>
+<li><p>when <span class="math inline">\(t \rightarrow T\)</span>, Vega increases, larger since uncertainty higher.</p></li>
+</ul>
+</div>
+<div id="theta-the-time-decay-factor" class="section level3">
+<h3>3.4.4 Theta: The time decay factor</h3>
+<p>This <a href="http://www.math.unl.edu/~sdunbar1/MathematicalFinance/Lessons/BlackScholes/Greeks/greeks.pdf">definition</a> is the rate of change with respect to the real (or calendar) time.</p>
+<p><span class="math display">\[\Theta = \frac{\partial f}{\partial T}\]</span></p>
+<ul>
+<li><p>For long position, theta&lt;0, means option lose value as time goes by. (negative approximate pdf of normal distribution)</p></li>
+<li><p>when <span class="math inline">\(t \rightarrow T\)</span>, Vega increases, larger (-) since decay faster.</p></li>
+</ul>
+</div>
+<div id="rho-the-interest-rate-factor" class="section level3">
+<h3>3.4.5 Rho: The interest rate factor</h3>
+<p>The rho (<span class="math inline">\(\rho\)</span>) of a derivative security is the rate of change of the value of the derivative security with respect to the interest rate.</p>
+<p><span class="math display">\[\rho   = \frac{\partial f}{\partial r} = X e^{(-rT)} T N(d_2), \text{when put, it is negative}\]</span></p>
+<ul>
+<li>Not sensitive</li>
+</ul>
+</div>
+<div id="summary" class="section level3">
+<h3>3.4.6 Summary</h3>
+<p>Note that the Black-Scholes partial differential equation can now be written as</p>
+<p><span class="math display">\[rf =  \Theta + r S \Delta + \frac{1}{2}\sigma^{2} S^2 T \]</span></p>
+<p>You can find something <a href="https://www.riskprep.com/component/exam/?view=exam&amp;layout=detail&amp;id=55">here</a>.</p>
+<p>The price <span class="math inline">\(f\)</span> of an option (or combination of options) depends on:</p>
+<table>
+<thead>
+<tr class="header">
+<th>BS Factor</th>
+<th align="center">Greek</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Share price, <span class="math inline">\(S\)</span></td>
+<td align="center"><span class="math inline">\(\Delta = \frac{\partial f}{\partial S}\)</span></td>
+</tr>
+<tr class="even">
+<td>Gamma, convexity</td>
+<td align="center"><span class="math inline">\(\Gamma = \frac{\partial^2 f}{\partial S^2}\)</span></td>
+</tr>
+<tr class="odd">
+<td>Volatility, <span class="math inline">\(\sigma\)</span></td>
+<td align="center"><span class="math inline">\(\nu = \frac{\partial f}{\partial \sigma}\)</span></td>
+</tr>
+<tr class="even">
+<td>Time, <span class="math inline">\(T\)</span></td>
+<td align="center"><span class="math inline">\(\Theta = \frac{\partial f}{\partial T}\)</span></td>
+</tr>
+<tr class="odd">
+<td>Risk free rate, <span class="math inline">\(r\)</span></td>
+<td align="center"><span class="math inline">\(\rho = \frac{\partial f}{\partial r}\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="binomial-trees" class="section level2">
+<h2>3.5 Binomial Trees</h2>
+<p><em>1. riskless hedge portfolio</em></p>
+<p>We compute a price for the option by constructing a riskless hedge portfolio. Thus form a portfolio that is long <span class="math inline">\(\Delta\)</span> shares of stock and short one call option. The cost to set up the portfolio and its value at the end of one time step are depicted on the following tree.</p>
+<p><span class="math display">\[\Delta S_u - C_u = \Delta S_d - C_d\]</span></p>
+<p><span class="math display">\[\Delta = \frac{C_u - C_d}{S_u - S_d} \]</span>
+Thus the option prict will be <span class="math inline">\(\Delta S_0 - C = e^{-rT}\{\Delta S_u - C_u\}\)</span></p>
+<p><span class="math inline">\(\Delta = [pC_u+(1-p)C_d]e^{-rt}\)</span></p>
+<p>where <span class="math inline">\(p = \frac{e^{rt}-d}{u-d}\)</span>, <span class="math inline">\(t\)</span> is for each step of the binomial tree. Sometimes the <span class="math inline">\(u=\frac{S_u}{S_0}\)</span> and <span class="math inline">\(d = \frac{S_d}{S_0}\)</span> will be given, and sometime the <span class="math inline">\(u = e^{\sigma \sqrt{\Delta t}}\)</span> and <span class="math inline">\(d =\frac{1}{u}\)</span>.</p>
+<p><em>2. Pricing American Options:</em></p>
+<p>We can use binomial trees to price American options. The procedure is to work backward through the tree, testing at each node whether it is optimal to exercise the option.</p>
+<p><em>3. Comparison of Binomial and Black-Scholes Option Prices</em></p>
+<p>Analysts use the binomial model to price American options and other, more complicated derivatives. One reason is that the Black-Scholes model assumes the option is European and can only be exercised at maturity. This is not typically a disadvantage when pricing American call options because call options are typically worth more alive than dead. The Black-Scholes model does a poor job pricing American put options because it is often optimal to exercise an American put before expiration.</p>
+<p>We expect the American binomial call option price to converge to the Black-Scholes call option price as the number of time steps (<span class="math inline">\(\Delta t\)</span>) in the binomial tree gets large. However, we expect the Black-Scholes model to <em>underprice</em> the American put option because the Black-Scholes model does not allow for optimal early exercise of the option.</p>
+</div>
+<div id="stochastic-calculus" class="section level2">
+<h2>3.6 Stochastic Calculus</h2>
+<p><em>1. Wiener Processes</em></p>
+<p>Stochastic variable <span class="math inline">\(\bar{\varepsilon}(t)\)</span> have the following properties:</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(\bar{\varepsilon}(t) \sim N(0,1)\)</span></p></li>
+<li><p>For any two times, <span class="math inline">\(t_i\)</span> and <span class="math inline">\(t_j\)</span>, <span class="math inline">\(i\neq j\)</span> , the covariance (and therefore correlation) between <span class="math inline">\(t_i\)</span> and <span class="math inline">\(t_j\)</span> is zero.</p></li>
+</ol>
+<p>Thus <span class="math inline">\(\bar{\varepsilon}(t)\)</span> has the same distribution for all t (is stationary) and values for <span class="math inline">\(\bar{\varepsilon}(t)\)</span> at any two points in time are statistically independent.</p>
+<p><em>1.1 basic Wiener process:</em></p>
+<p><span class="math display">\[d\bar{z} =\bar{\varepsilon}\sqrt{dt}\]</span></p>
+<p>With mean 0, variance <span class="math inline">\(t\)</span>.</p>
+<p><em>1.2 General Wiener process or arithmetic Brownian motion:</em></p>
+<p>The general Wiener process <span class="math inline">\(\bar{x}\)</span> is described by the following stochastic differential equation which is often used as a model for the rate of return on stock:</p>
+<p><span class="math display">\[d\bar{x}  = a dt + b d\bar{z}\]</span></p>
+<p>Where <span class="math inline">\(E[d\bar{x}] = adt, Var(d\bar{x}) = b^2dt, Cov(d\bar{x}_s, d\bar{x}_t) = 0\)</span></p>
+<p><em>2. Ito Processes</em></p>
+<p><span class="math display">\[d\bar{x}  = a(x,t) dt + b(x,t) d\bar{z}\]</span></p>
+<p><em>3. Geometric Brownian Motion</em>
+Consider a process <span class="math inline">\(x_t\)</span> described by arithmetic Brownian motion with drift <span class="math inline">\(\mu\)</span> and variance <span class="math inline">\(\sigma^2\)</span>. The process <span class="math inline">\(y_t\)</span> is geometric Brownian motion if</p>
+<p><span class="math display">\[y_t = e^{x_t}\]</span></p>
+<p>The stochastic differential equation for geometric Brownian motion is:</p>
+<p><span class="math display">\[d\bar{y} =  \alpha y_tdt + \sigma y_t d\bar{z}\]</span></p>
+<p><em>Properties of geometric Brownian motion</em>:</p>
+<ol style="list-style-type: decimal">
+<li><p>The drift parameter <span class="math inline">\(\alpha\)</span> is related to the parameters of a corresponding arithmetic Brownian motion process by the relation <span class="math inline">\(\alpha = \mu + \sigma^2 /2\)</span>.</p></li>
+<li><p>Geometric Brownian motion is a special case of a more general Itô process. An Itô process <span class="math inline">\(y_t\)</span> is described by the stochastic differential equation (SDE): <span class="math inline">\(d\bar{y} = \mu(y_t,t) dt + \sigma(y_t,t) d\bar{z}\)</span>, where the drift and volatility rate are function of <span class="math inline">\(y_t\)</span> and <span class="math inline">\(t\)</span>. Obviously, geometric Brownian motion is an Itô process with <span class="math inline">\(\mu(y_t,t) = \alpha y_t\)</span> and <span class="math inline">\(\sigma(y_t,t) = \sigma y_t\)</span>.</p></li>
+<li><p>Geometric Brownian motion has the property that the process <span class="math inline">\(y_t\)</span> is absorbed at zero. As such, if <span class="math inline">\(y_t\)</span> ever reaches zero it will stay at zero. This is not the case for arithmetic Brownian motion, since the process <span class="math inline">\(x_t\)</span> can wander (diffuse) above and below zero.</p></li>
+<li><p>Arithmetic Brownian motion is an inappropriate process for financial asset prices. The reason is two-fold. First, the process admits negative prices. Second, the process does not have the property that the expected percentage return on the asset is independent of the level of the price.</p></li>
+</ol>
+<p><em>4. Fundamental Theorem of Stochastic Calculus</em></p>
+<p>Consider an Itô process:</p>
+<p><span class="math display">\[dx  = \mu(x,t) dt + \sigma(x,t) dz\]</span></p>
+<p>where <span class="math inline">\(dz = \varepsilon \sqrt{dt}, \varepsilon \sim iid N(0,1)\)</span>,is the increment of a standard Wiener process.</p>
+<div id="itos-lemma" class="section level3">
+<h3>Itô’s Lemma</h3>
+<p>If <span class="math inline">\(F(x,t)\)</span> is a twice continuously differentiable function of <span class="math inline">\(x\)</span> and a once continuously differential function of <span class="math inline">\(t\)</span>, then the total differential <span class="math inline">\(F\)</span> is given by</p>
+<p><span class="math display">\[dF = \frac{\partial F}{\partial t}dt + \frac{\partial F}{\partial x}dx + \frac{1}{2} \frac{\partial^2 F}{\partial x^2}(dx)^2\]</span></p>
+<p>where <span class="math inline">\(dz^2 = E[dz^2] = dt, w.p.1\)</span> and <span class="math inline">\((dz)^2 = (\varepsilon_t \sqrt{dt})^2 = \varepsilon_t^2 dt\)</span> is equal to <span class="math inline">\(dt\)</span>.</p>
+</div>
+</div>
+<div id="b-s-model" class="section level2">
+<h2>3.7 B-S Model</h2>
+<p><em>1. Assumption</em></p>
+<ol style="list-style-type: decimal">
+<li><p>The underlying asset, <span class="math inline">\(S_t\)</span> , can be bought and sold in fractions of units. The asset pays no dividends or other distributions before the option’s expiration date.</p></li>
+<li><p>The risk-free interest rate, <span class="math inline">\(r\)</span>, is a constant and the same for all maturities.</p></li>
+<li><p>The option is European, with exercise price <span class="math inline">\(X\)</span> and time to expiration <span class="math inline">\(T\)</span>.</p></li>
+<li><p>There are no frictions in the market place such as taxes, transaction costs, or margin requirements. Trading in the underlying asset is continuous.</p></li>
+<li><p>The asset price dynamics are described by geometric Brownian motion:</p></li>
+</ol>
+<p><span class="math display">\[dS_t = \alpha S_t dt + \sigma S_tdz\]</span></p>
+<p><em>2. Deriving the B-S Call Option Formula</em></p>
+<p>Denoting <span class="math inline">\(C(S_t, t)\)</span> as the price of a European call option, we may use Itô’s Lemma to compute the instantaneous change in the option price as</p>
+<p><span class="math display">\[dC = \frac{\partial C}{\partial t}dt + \frac{\partial C}{\partial x}dx + \frac{1}{2} \sigma^2 S_t^2\frac{\partial^2 C}{\partial S^2}(dt)^2\]</span></p>
+<p>Since <span class="math inline">\((dS)^2 = \sigma^2 S_t^2 dt\)</span>.</p>
+<p>The value of the hedge portfolio is</p>
+<p><span class="math display">\[\Pi =  \frac{\partial C}{\partial S} S_t- C(S,t)\]</span></p>
+<p>The change in the value of the hedge portfolio is given by</p>
+<p><span class="math display">\[d\Pi =  \frac{\partial C}{\partial S} dS- dC\]</span></p>
+<p>Then which upon substitution for <span class="math inline">\(dC\)</span> from above gives</p>
+<p><span class="math display">\[d\Pi = -(\frac{\partial C}{\partial t} + \frac{1}{2} \sigma^2 S_t^2 \frac{\partial^2 C}{\partial S^2})dt\]</span></p>
+<p>With the terms involving <span class="math inline">\(dS\)</span> cancelling out, the hedge portfolio is riskless because dS is the only term which is a function of <span class="math inline">\(dz\)</span>. Therefore the hedge portfolio should earn the risk-free rate of interest <span class="math inline">\(r\)</span> per unit time. Thus we have</p>
+<p><span class="math display">\[\frac{d\Pi}{\Pi} = r dt \hspace{3mm} \text{or} \hspace{3mm} d\Pi = r \Pi dt\]</span></p>
+<p><span class="math display">\[ -(\frac{\partial C}{\partial t} + \frac{1}{2} \sigma^2 S_t^2 \frac{\partial^2 C}{\partial S^2})dt = r (\frac{\partial C}{\partial S}S_t - C(S_t,t))dt\]</span></p>
+<p>or after cancelling <span class="math inline">\(dt\)</span> on both sides of the equation and moving all terms to the right- hand-side of the equation we get</p>
+<p><span class="math display">\[\frac{1}{2} \sigma^2 S_t^2 \frac{\partial^2 C}{\partial S^2} + r S_t \frac{\partial C}{\partial S} + \frac{\partial C}{\partial t} - rC = 0\]</span></p>
+<p>Thus the call option value, <span class="math inline">\(C(S_t,t)\)</span>, must satisfy a second-order partial differential equation (PDE). In order to solve the PDE, we need three boundary conditions. We must specify what happens to the option value at expiration, what happens before that time when <span class="math inline">\(S_t\)</span> becomes arbitrarily low, and what happens when <span class="math inline">\(S_t\)</span> becomes arbitrarily high.</p>
+<p>For a European call option, the boundary conditions are:</p>
+<ol style="list-style-type: decimal">
+<li><p>At expiration <span class="math inline">\(C(S_T,T) = \max (S_T - X)\)</span>.</p></li>
+<li><p>At <span class="math inline">\(S_T = 0, C(0,t) = 0\)</span></p></li>
+<li><p>As <span class="math inline">\(S_t \rightarrow \infty, \partial C / \partial S \rightarrow 1\)</span>.</p></li>
+</ol>
+<p><em>3. The B-S Call and Put Formulas</em></p>
+<p>The Black-Scholes equation for the value of a European call option is
+<span class="math display">\[C = S_0 N(d1) - Xe^{-rT} N(d_2)\]</span>
+where <span class="math inline">\(d_1 = \frac{\ln(\frac{S_0}{X})+(r+\frac{\sigma^2}{2})T}{\sigma \sqrt{T}}\)</span> and <span class="math inline">\(d_2 = \frac{\ln(\frac{S_0}{X})+(r-\frac{\sigma^2}{2})T}{\sigma \sqrt{T}} = d_1 - \sigma \sqrt{T}\)</span></p>
+<p>and <span class="math inline">\(N(x)\)</span> is the cumulative standard normal distribution function.</p>
+<p><em>Comments</em>:</p>
+<ol style="list-style-type: decimal">
+<li><p>The formula can be interpreted as follows. If the call is exercised on the expiration date, the holder will receive <span class="math inline">\(S_T\)</span> and pay <span class="math inline">\(X\)</span>. However, this will take place only if <span class="math inline">\(S_T&gt;X\)</span> . Thus, <span class="math inline">\(S_0N(d_1)\)</span> is the present value of receiving <span class="math inline">\(S_T\)</span> conditional on <span class="math inline">\(S_T&gt;X\)</span>; and <span class="math inline">\(-X e^{-rT}N(d_2)\)</span> is the present value of paying <span class="math inline">\(X\)</span> conditional on <span class="math inline">\(S_T &lt; X\)</span>. Consistent with this interpretation, if the stock price gets large relative to <span class="math inline">\(X\)</span> (and the option is deep in the money), <span class="math inline">\(N(d1)\approx N(d2)\approx 1.0\)</span> and <span class="math inline">\(C \approx S_0 - Xe^{-rt}\)</span>.</p></li>
+<li><p>The B-S European call option model can also be used to price American call options. As we proved earlier, except for the effect of dividend payout, it is never optimal to exercise an American call early, so that American and European calls on non-dividend- paying stocks should have the <strong>same</strong> value.</p></li>
+<li><p>the delta of a call option is</p></li>
+</ol>
+<p><span class="math display">\[\Delta_c = \frac{\partial C}{\partial S} = N(d_1) &gt; 0\]</span></p>
+<p><em>B-S Put Formula:</em></p>
+<p><span class="math display">\[P =  Xe^{-rT} N(-d_2) - S_0 N(-d_1)\]</span></p>
+<p><em>Comments</em>:</p>
+<ol style="list-style-type: decimal">
+<li><p>The put formula is less useful than the call formula because, unlike the American call, it is optimal to exercise American puts before expiration. The B-S put equation does not take account of the economically valuable right to exercise early, and so it <strong>undervalues</strong> American puts.</p></li>
+<li><p><span class="math inline">\(\Delta_p = \Delta_c - 1\)</span></p></li>
+<li><p>Or use <strong>PSCK</strong></p></li>
+</ol>
+<p><span class="math display">\[S_0^{*} = S_0 -PV(D)\]</span></p>
+<p><em>4. Adjusting the Black-Scholes Model for Dividends</em></p>
+</div>
+<div id="quantifying-volatility" class="section level2">
+<h2>3.8 Quantifying Volatility</h2>
+<p><em>1. Historical - Based Approach</em></p>
+<p>Use daily return (in log) to compute <span class="math inline">\(\nu^2 = sum/(n-1)\)</span>. Then <span class="math inline">\(\sigma^2 = (252) * \nu^2\)</span>. In practice, volatility is estimated for most stocks using 1 to 6 months of daily prices.</p>
+<div id="a.-parametric-model" class="section level4">
+<h4>A. Parametric model</h4>
+<ol style="list-style-type: decimal">
+<li><p>EWMA</p></li>
+<li><p>GARCH</p></li>
+</ol>
+</div>
+<div id="b.-nonparametric-approach" class="section level4">
+<h4>B. Nonparametric approach</h4>
+<ol style="list-style-type: decimal">
+<li><p>Historical Simulation</p></li>
+<li><p>Multivariate Density Estimation (MDE)</p></li>
+</ol>
+</div>
+<div id="c.-hybrid-approach" class="section level4">
+<h4>C. Hybrid approach</h4>
+<p><em>2 Implied Volatility - Based Approach</em></p>
+<p>An alternative volatility estimation procedure arises from the option pricing model itself. Since all of the parameters of the option pricing model, except <span class="math inline">\(\sigma\)</span>, are known or can be estimated with little uncertainty, one needs only to equate the observed market price of the option, <span class="math inline">\(C_m\)</span> , with its formula value, <span class="math inline">\(C\)</span>, and solve for the volatility,<span class="math inline">\(\sigma\)</span>, that equates two values.</p>
+<p>An analytical expression for the variance parameter cannot be derived; however, accurate approximation is possible through numerical procedures.</p>
+<p><em>Problem:</em></p>
+<p>The Black-Scholes model assumes that volatility is constant, and does not depend on maturity, exercise price, or whether the option is a call or a put. All options written on the same underlying stock will yield identical estimates of volatility. This is not the case! Possible reasons include:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Non-Simultaneity of Prices</strong>. Estimating the implied volatility assumes that the option price and the stock price are observed at the same instant in time. Frequently, we only have the prices of the option and the stock at the times at which they were last traded. It is unlikely that these trades, one in the option market and one in the stock market, occurred at the same instant, and, to the extent that they are not contemporaneous, there will be error in the estimate of volatility.</p></li>
+<li><p><strong>Bid-Ask Prices</strong>. Even if the option and the stock price observations used to compute implied volatility are simultaneous, there is a problem with what the prices represent. When market orders are executed, they are at the bid or the ask price, depending upon whether the individual entering the market to trade wanted to sell (bid) or buy (ask). Since we generally do not know the motivation of the trader who was involved in the last observed transaction, implied volatility estimates have error when the bid price of the option is matched with the ask price of the stock and vice versa.</p></li>
+<li><p><strong>Model Mis-Specification</strong>. The implied volatility technique assumes that the option pricing model used to compute <span class="math inline">\(\sigma\)</span> is correctly specified. If it is not, then there is obviously going to be error in the estimate of <span class="math inline">\(\sigma\)</span>. Model assumptions that can be violated include lognormally distributed stock prices and no early exercise of the option.</p></li>
+</ol>
+<p><em>Volatility Surface</em></p>
+<p>A plot of the implied volatilities of options written on the same underlying stock as a function of their strike prices produces what is called a volatility surface. The pattern that is often produced is referred to as a volatility smile, skew (sloppy smile), or smirk.</p>
+<p>The typical pattern is that <strong>volatility decreases as the strike price increases</strong>. In addition, the implied volatility curve is flatter for longer maturity options.</p>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+<script src="/js/ui.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+

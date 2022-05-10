@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monte Carlo on </title>
+    <link>https://liyuantong93.com/categories/monte-carlo/</link>
+    <description>Recent content in Monte Carlo on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Yuantong Li. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://liyuantong93.com/categories/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Monte Carlo In Financial Derivatives</title>
+      <link>https://liyuantong93.com/2018/07/31/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://liyuantong93.com/2018/07/31/</guid>
+      <description>1. How to estimate Pi with Python #library(reticulate) from random import random from math import pow, sqrt simulations = 5000 hits = 0.0 for x in xrange(simulations): x = random() #0 &amp;lt;= x &amp;lt;= 1 y = random() #distance to (0,0) dist = sqrt(pow(x,2) + pow(y,2)) if dist &amp;lt;= 1: hits += 1 print(4 * hits/simulations) ## 3.156  2. Pricing Options using Monte Carlo A geometric Brownian motion is a random process where the logarithm of the random variable follows a normal distribution.</description>
+    </item>
+    
+  </channel>
+</rss>

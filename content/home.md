@@ -1,8 +1,8 @@
 ---
-title: Home
+title: "Home"
 author: ''
 date: '2018-07-02'
-draft: false
+draft: no
 ---
 
 ![Picture](/self-image/selfie.jpg)
@@ -40,6 +40,11 @@ My research interests fall in trustworthy AI combined with sequential decision m
   * An oral presentaion of our full research paper NIQCD at KDD'20: [A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components](https://arxiv.org/abs/2006.11383) will start on August 27th, 10:00 AM PDT (1:00 PM EDT)! [[video]](https://vimeo.com/443853561)
 
 ### Publications
+
+9. Rate-Optimal Contextual Online Matching Bandit\
+_**Y. Li**, C. Wang, G. Cheng, W. Sun_\
+[[paper]](https://arxiv.org/abs/2205.03699)
+
 8. Residual Bootstrap Exploration for Stochastic Linear Bandit\
 _S. Wu, C. Wang, **Y. Li**, G. Cheng._\
 [[paper]](https://arxiv.org/pdf/2202.11474)
@@ -96,7 +101,7 @@ Applied Scientist Intern, Amazon Web Service (AWS) AI.
 
 
 ### Professional Services:
-Conference Reviewer: [AISTATS 2021](http://aistats.org/)
+Conference Reviewer: [AISTATS](http://aistats.org/)
 
 
 Journal Reviewer: [IEEE TNNLS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385).

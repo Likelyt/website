@@ -1,18 +1,13 @@
 baseurl = "https://liyuantong93.com/"
 publishDir = "docs"
 languageCode = "en-us"
-author = "Yuantong Li"
 canonifyurls = true
 paginate = 10
 theme = "blackburn"
 googleAnalytics = "UA-166886302-1"
 copyright = "&copy; 2020 Yuantong Li. All rights reserved."
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.md$","\\.Rmarkdown$", "_files$", "_cache$"]
 
-
-[indexes]
-  tag = "tags"
-  topic = "topics"
 
 [permalinks]
     post = "/:year/:month/:day"
@@ -35,6 +30,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxCDN = "//cdn.bootcss.com"
     MathJaxVersion = "2.7.1"
     
+    
   
 [menu]
   # Shown in the side menu.
@@ -49,7 +45,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Blog"
     pre = "<i class='fa fa-institution fa-fw'></i>"
     weight = 2
-    identifier = "Posts"
+    identifier = "Blog"
     url = "/post/"
 
 #  [[menu.main]]
