@@ -12,14 +12,13 @@ I'm a third-year Ph.D. student in the [Department of Statistics](http://statisti
 My research interests fall in high-dimensional statistics, trustworthy AI  combined with sequential decision making (bandit theory and reinforcement learning), and designing and optimizing multi-agent systems. Besides, I have interests and experience in natural language process field.
 
 
-During my master period, I was a visiting student at Cornell University (with Prof. [Fei Wang](https://sites.google.com/site/cornellwanglab/home)), OSU (with Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/)), and UPenn (with Prof. [Rui Feng](https://www.dbei.med.upenn.edu/bio/rui-feng-phd)).
-
 
 [[Google Scholar]](https://scholar.google.com/citations?hl=en&user=wT8kLn4AAAAJ&view_op=list_works&sortby=title&gmla=AJsN-F76O2e1DXmn54H5khUZ1Fl2HpQcHUCTxdZDV6UkaC0crFRf0QtIPZ5Dbr0Iy5y8_saLFPb3SSj-6HRJ1dyUOOKqJk_d9vHFDeMGDGh3b2pDdGcepdI&sciund=1766651423776757674)
 [[LinkedIn]](https://www.linkedin.com/in/yuantongli/)
 [[GitHub]](https://github.com/Likelyt)
 
 ### What's new
+
 * __March 2022__
   * I'm excited to get back Amazon AWS AI Lab as an applied scientist intern in the coming summer!
 
