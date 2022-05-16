@@ -18,6 +18,11 @@ My research interests fall in high-dimensional statistics, trustworthy AI  combi
 [[GitHub]](https://github.com/Likelyt)
 
 ### What's new
+* __May 2022__
+  * [Residual Bootstrap Exploration for Stochastic Linear Bandit](https://arxiv.org/pdf/2202.11474) was accepted to UAI 2022! Congratulations to my collaborators Shuang Wu and Chi-hua Wang! 
+
+  * Debiasing Neural Retrieval via In-batch Balancing Regularization was accepted to GeBNLP 2022! Congratulations to my Amazon mentors XiaoKai Wei, Shen Wang, and Zijian Wang, and my manager Andrew Arnold, Parminder Bhatia!
+
 
 * __March 2022__
   * I'm excited to get back Amazon AWS AI Lab as an applied scientist intern in the coming summer!
@@ -31,11 +36,12 @@ My research interests fall in high-dimensional statistics, trustworthy AI  combi
 _**Y. Li**, C. Wang, G. Cheng, W. Sun._\
 
 8. [Residual Bootstrap Exploration for Stochastic Linear Bandit](https://arxiv.org/pdf/2202.11474)\
+_Proceedings of the 38th International Conference on Uncertainty in Artificial Intelligence._**(UAI 2022)**\
 _S. Wu, C. Wang, **Y. Li**, G. Cheng._\
 
 
 7. Debiasing Neural Retrieval via In-batch Balancing Regularization\
-_Proceedings of the 4th Workshop on Gender Bias in Natural Language Processing._**(GeBNLP 22)**\
+_Proceedings of the 4th Workshop on Gender Bias in Natural Language Processing._**(GeBNLP 2022)**\
 _**Y. Li**, X. Wei, Z. Wang, S. Wang, P. Bhatia, X. Ma, and A. Arnold._\
 
 6. [Online Bootstrap Inference For Policy Evaluation in Reinforcement Learning](https://arxiv.org/abs/2108.03706)\
@@ -48,18 +54,18 @@ _**Bioinformatics**_.\
 
 4. [Online Forgetting Process for Linear Regression Models](http://proceedings.mlr.press/v130/li21a/li21a.pdf)\
 _**Y. Li**, C. Wang, and G. Cheng._\
-_In Proc of the 24nd International Conference on Artificial Intelligence and Statistics (AISTATS), San Diego, California, 2021_.**(AISTATS'21)**\
+_In Proc of the 24nd International Conference on Artificial Intelligence and Statistics, San Diego, California, 2021_.**(AISTATS 2021)**\
 
 3. Ranking with Tail-Attention Regression in Stock Cross-Sectional Selection\
 _J. Duan, **Y. Li**, J. Guo, and G. Cheng._
 
 2. [A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components](https://arxiv.org/abs/2006.11383)\
 _**Y. Li**, Q. Ma, and S. K. Ghosh._\
-_The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020_.**(KDD'20)**\
+_The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2020_.**(KDD 2020)**\
 
 1. [Interactive Attention Networks for Semantic Text Matching](https://ieeexplore.ieee.org/document/9338264)\
 _S. Zhao, Y. Huang, C. Su, **Y. Li** and F. Wang._\
-_2020 IEEE International Conference on Data Mining_.**(ICDM'20)**\
+_2020 IEEE International Conference on Data Mining_.**(ICDM 2020)**\
 
 
 
