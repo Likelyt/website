@@ -21,7 +21,7 @@ My research interests fall in high-dimensional statistics, trustworthy AI  combi
 * __May 2022__
   * [Residual Bootstrap Exploration for Stochastic Linear Bandit](https://arxiv.org/pdf/2202.11474) was accepted to UAI 2022! Congratulations to my collaborators Shuang Wu and Chi-hua Wang! 
 
-  * Debiasing Neural Retrieval via In-batch Balancing Regularization was accepted to GeBNLP 2022! Congratulations to my Amazon mentors XiaoKai Wei, Shen Wang, and Zijian Wang, and my manager Andrew Arnold, Parminder Bhatia!
+  * [Debiasing Neural Retrieval via In-batch Balancing Regularization](https://arxiv.org/abs/2205.09240) was accepted to GeBNLP 2022! Congratulations to my Amazon mentors XiaoKai Wei, Shen Wang, and Zijian Wang, and my manager Andrew Arnold, Parminder Bhatia!
 
 
 * __March 2022__
@@ -40,7 +40,7 @@ _Proceedings of the 38th International Conference on Uncertainty in Artificial I
 _S. Wu, C. Wang, **Y. Li**, G. Cheng._\
 
 
-7. Debiasing Neural Retrieval via In-batch Balancing Regularization\
+7. [Debiasing Neural Retrieval via In-batch Balancing Regularization](https://arxiv.org/abs/2205.09240)\
 _Proceedings of the 4th Workshop on Gender Bias in Natural Language Processing._**(GeBNLP 2022)**\
 _**Y. Li**, X. Wei, Z. Wang, S. Wang, P. Bhatia, X. Ma, and A. Arnold._\
 
