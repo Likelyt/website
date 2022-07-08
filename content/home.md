@@ -18,6 +18,12 @@ My research interests fall in high-dimensional statistics, trustworthy AI  combi
 [[GitHub]](https://github.com/Likelyt)
 
 ### What's new
+* __July 2022__
+  * I will attend the NACCL 2022 (Seattle, WA) to present our paper! 
+
+* __June 2022__
+  * Our [Online Bootstrap Inference For Policy Evaluation in Reinforcement Learning](https://arxiv.org/abs/2108.03706) paper got accepted at JASA! Congratulations to all my collaborators!
+  
 * __May 2022__
   * [Residual Bootstrap Exploration for Stochastic Linear Bandit](https://arxiv.org/pdf/2202.11474) was accepted to UAI 2022! Congratulations to my collaborators Shuang Wu and Chi-hua Wang! 
 
@@ -46,7 +52,7 @@ _**Y. Li**, X. Wei, Z. Wang, S. Wang, P. Bhatia, X. Ma, and A. Arnold._\
 
 6. [Online Bootstrap Inference For Policy Evaluation in Reinforcement Learning](https://arxiv.org/abs/2108.03706)\
 _P. Ramprasad, **Y. Li**, Z. Yang, Z. Wang, W. Sun., and G. Cheng._\
-_Minor revision under review at Journal of the American Statistical Association (JASA)._ \
+_Journal of the American Statistical Association.**(JASA)**_ \
 
 5. [Peel Learning for Pathway-Related Outcome Prediction](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab402/6286960?redirectedFrom=fulltext)\
 _**Y. Li**, F. Wang, M. Yang, F. Yang, E. Cantu, H. Rao, and R. Feng._\
@@ -89,7 +95,7 @@ Applied Scientist Intern, [Amazon Web Service (AWS) AI Lab](https://aws.amazon.c
 
 
 ### Professional Services:
-Conference Reviewer: [AISTATS](http://aistats.org/)
+Conference Reviewer: [AISTATS](http://aistats.org/), [Neurips](https://nips.cc)
 
 
 Journal Reviewer: [IEEE TNNLS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385).
