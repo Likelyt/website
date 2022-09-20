@@ -8,7 +8,7 @@ draft: no
 ![Picture](/self-image/selfie.jpg)
 
 # Yuantong Li
-I'm a third-year Ph.D. student in the [Department of Statistics](http://statistics.ucla.edu), [UCLA](https://www.ucla.edu). My advisor is Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/) and Prof. [Wei Sun](https://web.ics.purdue.edu/~sun244/). 
+I'm a 4th-year Ph.D. student in the [Department of Statistics](http://statistics.ucla.edu), [UCLA](https://www.ucla.edu). My advisor is Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/) and Prof. [Wei Sun](https://web.ics.purdue.edu/~sun244/). 
 My research interests fall in high-dimensional statistics, trustworthy AI  combined with sequential decision making (bandit theory and reinforcement learning), and designing and optimizing multi-agent systems. Besides, I have interests and experience in natural language process field.
 
 
@@ -18,6 +18,9 @@ My research interests fall in high-dimensional statistics, trustworthy AI  combi
 [[GitHub]](https://github.com/Likelyt)
 
 ### What's new
+* __Oct 2022__
+  * I will attend the Informs Annual Meeting (Indianapolis, IN) to present  our paper [Rate-Optimal Contextual Online Matching Bandit](https://arxiv.org/abs/2205.03699)!
+
 * __July 2022__
   * I will attend the NACCL 2022 (Seattle, WA) to present our paper! 
 
